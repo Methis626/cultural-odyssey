@@ -16,7 +16,8 @@ RELIGION_DATA_PATH = os.path.join(BASE_DIR, 'main', 'data', 'rel.json')
 
 SECRET_KEY = 'django-insecure-your-secret-key'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["cultural-odyssey.onrender.com", "localhost", "127.0.0.1"]
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
