@@ -1,0 +1,22 @@
+<!-- accounts/templates/accounts/signup.html -->
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kayıt Ol</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+  <h2>📝 Kayıt Ol</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Kayıt Ol</button>
+  </form>
+
+  <p>Zaten hesabın var mı? <a href="{% url 'login' %}">Giriş Yap</a></p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+  {
+    "country": "Turkey",
+    "iso2": "TR",
+    "lat": 39.0,
+    "lng": 35.0,
+    "capital": "Ankara",
+    "population": 82000000
+  },
+  {
+    "country": "France",
+    "iso2": "FR",
+    "lat": 46.0,
+    "lng": 2.0,
+    "capital": "Paris",
+    "population": 67000000
+  }
+]

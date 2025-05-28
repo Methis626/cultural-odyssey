@@ -1,0 +1,356 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cultural Odyssey</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    
+    }
+    #globeViz {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    /* Başlık ve Açıklama Animasyonu */
+    .intro-container {
+      position: absolute;
+      top: 40%; /* Dikey ortalamayı geliştir */
+      left: 40%;
+      transform: translate(-50%, -50%); /* Yatay ve dikey merkezleme */
+      text-align: center;
+      z-index: 1003;
+      width: 90%; /* Genişliği tam ekran yap */
+    }
+    
+.text-container {
+  position: absolute;
+  top: 50%; /* Dikeyde ortala */
+  left: 50%; /* Yatayda ortala */
+  transform: translate(-50%, -50%); /* Tam merkezle */
+  text-align: center;
+  z-index: 1003;
+  max-width: 800px; /* Yazı genişliği için sınır koy */
+  width: 90%; /* Ekrana göre esnet */
+  padding: 0 20px;
+}
+
+
+ .intro-text {
+      font-size: 48px;
+      font-weight: bold;
+      color: #00ffff;
+      opacity: 0;
+      animation: slideToRight 3s ease-in-out forwards;
+      text-align: center;
+      line-height: 1.2;
+      margin: 0 auto;
+    }
+
+ .intro-description {
+  font-size: 20px;
+  color: #ffffff;
+  opacity: 0;
+  max-width: 650px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeIn 1s ease-in 4s forwards;
+  text-align: center;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  
+  padding: 15px 25px;
+  border-radius: 12px;
+  
+}
+
+
+    @keyframes slideToRight {
+      0% { opacity: 0; transform: translate(-50%, -50%); }
+      20% { opacity: 1; transform: translate(-50%, -50%); }
+      100% { opacity: 1; transform: translate(150px, -50%); } /* Sağda sabit kalır */
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    /* Discover Butonu */
+    .discover-button {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 15px 30px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffffff;
+      background: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff);
+      background-size: 200%;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(0, 255, 255, 0.4);
+      z-index: 1001;
+      opacity: 0;
+      transition: all 0.3s ease;
+      animation: fadeInButton 1s ease-in 5s forwards;
+    }
+
+    .discover-button:hover {
+      background-position: 100%;
+      transform: translateX(-50%) scale(1.1);
+      box-shadow: 0 8px 25px rgba(0, 255, 255, 0.8);
+    }
+
+    .discover-button:active {
+      transform: translateX(-50%) scale(0.95);
+    }
+
+    @keyframes fadeInButton {
+      0% { opacity: 0; transform: translateX(-50%) scale(0.5); }
+      100% { opacity: 1; transform: translateX(-50%) scale(1); }
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0%; }
+      50% { background-position: 100%; }
+      100% { background-position: 0%; }
+    }
+
+/* Header Stili */
+  /* Header Stili */
+    header {
+      position: absolute;
+      height: 40px; 
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: rgba(0, 0, 0, 0.5); /* Beyaz ve %50 şeffaflık */
+     
+      backdrop-filter: blur(8px);
+      z-index: 1002;
+      opacity: 0;
+      transition: opacity 1s ease-in 3s;
+    }
+
+    header.visible {
+      opacity: 1;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      
+    }
+
+    .logo-area img {
+      height: 80px;
+      left: -25px;
+    }
+
+    .site-name {
+      font-size: 24px;
+      font-weight: bold;
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    .nav-menu {
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-menu a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    /* Holografik Buton Stili (Login ve Sign Up) */
+    .auth-buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .auth-buttons a {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 120px;
+      height: 50px;
+      background: #111;
+      position: relative;
+      overflow: hidden;
+      border-radius: 15px;
+      transition: all 0.5s ease;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: #0ff;
+      z-index: 2;
+    }
+
+    .auth-buttons a::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(
+        0deg,
+        transparent,
+        transparent 30%,
+        rgba(0, 255, 255, 0.3)
+      );
+      transform: rotate(-45deg);
+      transition: all 0.5s ease;
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .auth-buttons a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    }
+
+    .auth-buttons a:hover::before {
+      opacity: 1;
+      transform: rotate(-45deg) translateY(100%);
+    }
+
+    .auth-buttons .login {
+      background: #111;
+    }
+
+    .auth-buttons .signup {
+      background: linear-gradient(45deg, #111, #222);
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/globe.gl"></script>
+</head>
+<body>
+  <div class="intro-container">
+    <div class="intro-text">CULTURAL ODYSSEY DISCOVERING THE WORLD WITH AI</div>
+</div>
+<div class="text-container">
+      <div class="intro-description"> Cultural Odyssey helps you discover the <strong>cultures</strong>, <strong>traditions</strong>, and <strong>stories</strong> of countries around the world.  
+Click on a country on the map to learn about its <strong>food</strong>, <strong>language</strong>, and <strong>unique places</strong>.  
+Get closer to the world with <span style="color: #00ffff;">AI-powered insights</span>.  
+Ready to explore? <strong>Click the Discover button and start your journey!</strong>
+</span>.
+</div>
+</div>
+ <div id="globeViz"
+       data-globe-img="{% static 'images/earth-night.jpg' %}"
+       data-bg-img="{% static 'images/night-sky.png' %}">
+</div>
+
+
+  <button >
+    <a href="{% url 'explore' %}" class="discover-button">Discover</a>
+
+</button>
+
+
+  <header>
+    <div class="logo-area">
+      <img src="{% static 'images/3.png' %}" alt="Logo" />
+      <a href="#" class="site-name">
+        Cultural Odyssey
+      </a>
+    </div>
+    <nav class="nav-menu">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+    </nav>
+ 
+  </header>
+
+  
+<script>
+  const globeElement = document.getElementById('globeViz');
+  const globeImg = globeElement.dataset.globeImg;
+  const bgImg = globeElement.dataset.bgImg;
+
+  const globe = new Globe(globeElement)
+    .globeImageUrl(globeImg)
+    .backgroundImageUrl(bgImg);
+
+  fetch("{% static 'datasets/ne_110m_populated_places_simple.geojson' %}")
+    .then(res => res.json())
+    .then(places => {
+      globe
+        .labelsData(places.features)
+        .labelLat(d => d.properties.latitude)
+        .labelLng(d => d.properties.longitude)
+        .labelText(d => d.properties.name)
+        .labelSize(d => Math.sqrt(d.properties.pop_max) * 4e-4)
+        .labelDotRadius(d => Math.sqrt(d.properties.pop_max) * 4e-4)
+        .labelColor(() => 'rgba(255, 165, 0, 0.75)')
+        .labelResolution(2);
+
+      const controls = globe.controls();
+      controls.autoRotate = true;
+      controls.autoRotateSpeed = 1.0;
+
+      let isUserInteracting = false;
+
+      globe.onGlobeReady(() => {
+        globe.pointOfView({ lat: 0, lng: 0, altitude: 5 }, 0);
+
+        setTimeout(() => {
+          globe.pointOfView({ lat: 0, lng: 0, altitude: 2.5 }, 4000);
+          document.querySelector('header').classList.add('visible');
+        }, 0);
+
+        controls.addEventListener('start', () => {
+          isUserInteracting = true;
+          controls.autoRotate = false;
+        });
+
+        controls.addEventListener('end', () => {
+          isUserInteracting = false;
+          controls.autoRotate = true;
+        });
+
+        function animate() {
+          if (!isUserInteracting) {
+            controls.update();
+          }
+          requestAnimationFrame(animate);
+        }
+        animate();
+      });
+
+      const button = document.querySelector('.discover-button');
+      button.addEventListener('click', () => {
+        console.log('Discover butonuna tıklandı!');
+      });
+    })
+    .catch(error => console.error('Veri yüklenemedi:', error));
+</script>
+ 
+
+
+
+
+</body>
+</html>

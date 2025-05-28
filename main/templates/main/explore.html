@@ -1,0 +1,217 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Cultural Odyssey | Keşfet{% endblock %}
+
+{% block content %}
+<!-- Ülke ve Şehir Bilgisi Kutusu -->
+
+<div class="row1">
+  <div id="location-box" class="initial">
+    <h1 id="location-line">Country / City</h1>
+    <p id="capital-line">Capital</p>
+  </div>
+  
+  <div class="map-wrapper">
+    <div id="map"></div>
+  </div>
+  
+  <!-- Bayrak Kutusu -->
+  <div class="flag-box">
+    <img id="flag" src="" alt="" />
+  </div>
+  
+  <div class="top-right">
+    <!-- HAVA DURUMU KUTUSU -->
+    <div class="weather-box" id="weather-box">
+      <img id="weather-icon" src="" alt="Weather Icon" />
+      <div class="temp" id="temperature">--°C</div>
+      <div class="description" id="description">--</div>
+      <div class="humidity" id="humidity">💧 : --</div>
+      <div class="wind" id="wind-speed"> 💨: --</div>
+    </div>
+
+  <!-- SAAT KUTUSU -->
+<div class="clock-box">
+  <div id="local-time">Saat: --:--</div>
+  <div id="timezone">(UTC+X)</div>
+</div>
+  
+    </div>
+    
+  </div>
+
+
+
+
+
+<!-- TANITIM KUTUSU (SAĞ ÜST) -->
+<div id="summary-box" class="info-summary-box">
+  <h4 class="info-title">🌍 Country Overview</h4>
+  <p id="country-summary">Click a country...</p>
+
+  <h4 class="info-title">🏙️ City Overview</h4>
+  <p id="city-summary">Click a city...</p>
+</div>
+
+
+
+
+<!-- Para birimi ve resmi dil kutuları (yan yana) -->
+<div class="info-row-under-flag">
+  <div class="info-box">
+    💱 <strong>Currency:</strong> <span id="currency">-</span>
+  </div>
+  <div class="info-box">
+    🗣️ <strong>Official Language:</strong> <span id="language">-</span>
+  </div>
+</div>
+
+ <!-- Nüfus Kutusu -->
+  <div class="population-box-in-row">
+    <div class="population-box">
+      🧍‍♂️ <strong>Population:</strong> <span id="population">-</span>
+    </div>
+  </div>
+
+  <div class="geo-rel"> 
+    <div class="geo-position-box">
+      
+      <!-- Coğrafi bilgi kutusu -->
+      <div class="geo-box">
+        <p>🌍 <strong>Region:</strong> <span id="region">-</span></p>
+        <p>🗺️ <strong>Subregion:</strong> <span id="subregion">-</span></p>
+        <p>📐 <strong>Area:</strong> <span id="area">-</span> km²</p>
+        <p>🌐 <strong>Borders:</strong> <span id="borders">-</span></p>
+      </div>
+  
+      <!-- DİN KUTUSU BURADA OLMALI -->
+      <div class="religion-box">
+        <h3>🕊️ Religion Distribution</h3>
+        <ul id="religion-list"></ul>
+      </div>
+  
+    </div>
+  </div>
+  
+
+
+<!-- Yatay butonlar -->
+<div class="tab-buttons">
+  <button class="tab-btn" data-target="food-tab">🍽️ Famous Dishes</button>
+  <button class="tab-btn" data-target="calendar-tab">📅 Calendar of Countries</button>
+  <button class="tab-btn" data-target="places-tab">🗺️ Places to Visit</button>
+  <button class="tab-btn" data-target="traditions-tab">Traditions</button>
+
+</div>
+
+<div id="food-tab" class="tab-content active">
+  <div class="food-card">
+    <h3>🍽️ Famous Dishes</h3>
+    <ul class="famous-foods-list">
+      <li>Foods are loading…</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- TAB İÇERİKLERİ -->
+<div id="tab-content-box">
+  <!-- Meşhur Yemekler -->
+  <div id="food-tab" class="tab-content active">
+    <ul class="famous-foods-list">
+      <li>Yemekler yükleniyor…</li>
+    </ul>
+  </div>
+  <!-- TAKVİM BU ALANDA -->
+  <div class="tab-content" id="calendar-tab">
+    <h3>📅 Calendar of Countries</h3>
+    <div id="calendar-container">
+      <div class="sidebar">
+        <h2 id="year-display"></h2>
+        <ul class="month-list" id="month-list"></ul>
+      </div>
+      <div class="calendar-container">
+        <div class="header">
+          <button id="prev-year">‹</button>
+          <h2 id="month-year"></h2>
+          <button id="next-year">›</button>
+          <select id="country-select"></select>
+        </div>
+        <div class="weekday-names">
+          <div>Paz</div><div>Pzt</div><div>Sal</div><div>Çar</div><div>Per</div><div>Cum</div><div>Cmt</div>
+        </div>
+        <div id="calendar-grid"></div>
+      </div>
+      <div class="events-panel">
+        <h3 id="event-date">Tarih seçin</h3>
+        <ul id="event-list"><li>Tarih seçilmedi.</li></ul>
+      </div>
+    </div>
+  </div>
+
+<div class="tab-content" id="places-tab">
+  <h3>🗺️ Places to Visit</h3>
+  <ul id="places-google-list">
+    <li>Loading...</li>
+  </ul>
+</div>
+
+
+  <div class="tab-content" id="traditions-tab">
+    <h3>🎉 Traditions</h3>
+    <div id="traditions-list">
+      <p>Choose country...</p>
+    </div>
+  </div>
+</div>
+  
+
+<div id="calendar-wrapper" class="calendar-wrapper hidden">
+  {% include 'main/calendar.html' %}
+</div>
+
+
+{% if messages %}
+  <ul class="messages">
+    {% for message in messages %}
+      <li class="{{ message.tags }}">{{ message }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+
+
+
+
+<!-- Chatbot açma butonu -->
+<button id="chat-toggle" class="chat-toggle-button">🤖</button>
+
+<!-- Chatbot paneli -->
+<div id="chat-panel" class="chat-panel hidden">
+  <div class="chat-header">CulturalBot <span id="chat-close">×</span></div>
+  <div class="chat-body" id="chat-body">
+    <div class="chat-message bot">Hello! How can I assist you today?</div>
+  </div>
+  <div class="chat-input-area">
+    <input type="text" id="chat-input" placeholder="write your question..." />
+    <button id="chat-send">Send</button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+
+
+
+
+

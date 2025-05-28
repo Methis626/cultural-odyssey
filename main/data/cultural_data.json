@@ -1,0 +1,2990 @@
+  {  
+    "Turkey": 
+     {
+      "Top": ["Döner", "Baklava", "Mantı", "Kebap", "Lahmacun", "Kuru Fasulye", "Köfte", "İskender", "Menemen", "Karnıyarık"],
+      "Adana": ["Adana Kebap", "Bici Bici", "Şalgam"],
+      "Adıyaman": ["Çiğ Köfte", "Besni Tava", "Meyir Çorbası"],
+      "Afyonkarahisar": ["Kaymaklı Ekmek Kadayıfı", "Afyon Sucuğu", "Haşhaşlı Tatlı"],
+      "Ağrı": ["Abdigör Köftesi", "Haşıl", "Hengel"],
+      "Amasya": ["Bakla Dolması", "Etli Bamya", "Sakala Çarpan Çorbası"],
+      "Ankara": ["Ankara Tava", "Beypazarı Kurusu", "Çubuk Turşusu"],
+      "Antalya": ["Hibeş", "Domates Civesi", "Tandır Kebabı"],
+      "Artvin": ["Hingel", "Püşürük Çorbası", "Kaygana"],
+      "Aydın": ["Çingene Pilavı", "Zeytinyağlı Enginar", "Paşa Böreği"],
+      "Balıkesir": ["Höşmerim", "Tirit", "Balıkesir Kaymaklısı"],
+      "Bartın": ["Pumpum Çorbası", "Amasra Salatası", "Kabak Burması"],
+      "Batman": ["Perde Pilavı", "Şam Böreği", "Bumbar"],
+      "Bayburt": ["Lor Dolması", "Tatlı Çorba", "Galacoş"],
+      "Bilecik": ["Ovmaç Çorbası", "Büzme Tatlısı", "Köpük Helvası"],
+      "Bingöl": ["Tutmaç Çorbası", "Keşkek", "Gömme"],
+      "Bitlis": ["İçli Köfte", "Kürt Böreği", "Katıklı Dolma"],
+      "Bolu": ["Kabaklı Gözleme", "Mengen Pilavı", "Kaldırık Dolması"],
+      "Burdur": ["Burdur Şiş", "Ceviz Ezmesi", "Haşhaş Helvası"],
+      "Bursa": ["İskender Kebap", "Kestane Şekeri", "Pideli Köfte"],
+      "Çanakkale": ["Peynir Helvası", "Tumbi", "Bakla Keşkeği"],
+      "Çankırı": ["Yarma Aşı", "Keşkek", "Tava Çöreği"],
+      "Çorum": ["İskilip Dolması", "Çorum Leblebisi", "Çatal Aşı"],
+      "Denizli": ["Tandır Kebabı", "Kuyu Kebabı", "Leğen Böreği"],
+      "Diyarbakır": ["Kaburga Dolması", "Ciğer Kebabı", "Meftune"],
+      "Düzce": ["Çerkez Tavuğu", "Göbete", "Boşnak Böreği"],
+      "Edirne": ["Ciğer Tava", "Zerde", "Kavala Kurabiyesi"],
+      "Elazığ": ["Harput Köftesi", "Sırın", "Pestilli Cevizli Sucuk"],
+      "Erzincan": ["Kete", "Ekşili Çorba", "Siron"],
+      "Erzurum": ["Cağ Kebabı", "Kadayıf Dolması", "Ayran Aşı"],
+      "Eskişehir": ["Çibörek", "Balaban Köfte", "Met Helvası"],
+      "Gaziantep": ["Baklava", "Beyran", "Ali Nazik"],
+      "Giresun": ["Karalahana Çorbası", "Mısır Ekmeği", "Hamsi Pilavı"],
+      "Gümüşhane": ["Pestil", "Köme", "Siron"],
+      "Hakkari": ["Doğaba", "Kıris", "Kavut"],
+      "Hatay": ["Künefe", "Tepsi Kebabı", "Oruk"],
+      "Iğdır": ["Bozbaş", "Katlet", "Taş Köfte"],
+      "Isparta": ["Kabune Pilavı", "Eğirdir Elması", "Gül Reçeli"],
+      "Istanbul": ["Balık Ekmek", "Simit", "Islak Hamburger"],
+      "İzmir": ["Boyoz", "Kumru", "Lokma"],
+      "Kahramanmaraş": ["Maraş Dondurması", "Eli Böğründe", "Çörek"],
+      "Karabük": ["Safranbolu Bükmesi", "Peruhi", "Cevizli Yayım"],
+      "Karaman": ["Tandır Böreği", "Batırık", "Calla"],
+      "Kars": ["Kaz Eti", "Hengel", "Umaç Helvası"],
+      "Kastamonu": ["Etli Ekmek", "Banduma", "Cırık Tatlısı"],
+      "Kayseri": ["Mantı", "Yağlama", "Nevzine Tatlısı"],
+      "Kırıkkale": ["Kesme Çorbası", "Tandır Kebabı", "Çullama"],
+      "Kırklareli": ["Hardaliye", "Pırasa Böreği", "Kuzu Kapama"],
+      "Kırşehir": ["Çullama", "Düğün Çorbası", "Kabak Çekirdeği Helvası"],
+      "Kilis": ["Kilis Tava", "Oruk", "Cennet Çamuru"],
+      "Kocaeli": ["Pişmaniye", "Kandıra Yoğurdu", "Manav Tarhanası"],
+      "Konya": ["Etliekmek", "Fırın Kebabı", "Tirit"],
+      "Kütahya": ["Sıkıcık Çorbası", "Dolamber Böreği", "Haşhaşlı Tatlı"],
+      "Malatya": ["Kayısı", "Kağıt Kebabı", "Analı Kızlı"],
+      "Manisa": ["Manisa Kebabı", "Mesir Macunu", "Şekerli Pide"],
+      "Mardin": ["İkbebet", "Kibe", "Sembusek"],
+      "Mersin": ["Tantuni", "Cezerye", "Kerebiç"],
+      "Muğla": ["Çökertme Kebabı", "Börülce Ekşilemesi", "Milas Köftesi"],
+      "Muş": ["Herise", "Muş Köftesi", "Keşkek"],
+      "Nevşehir Province": ["Testi Kebabı", "Düğü Çorbası", "Soğanlama"],
+      "Niğde": ["Niğde Tava", "Pancar Çorbası", "Kaygana"],
+      "Ordu": ["Mısır Ekmeği", "Fasulye Diblesi", "Hamsi Buğulama"],
+        "Osmaniye": ["Kabak Tatlısı", "Etli Kömbe", "Mumbar Dolması"],
+        "Rize": ["Laz Böreği", "Hamsili Pilav", "Muhlama"],
+        "Sakarya": ["Islama Köfte", "Kabuklu Pilav", "Sütlü Kabak"],
+        "Samsun": ["Bafra Pidesi", "Kaz Pilavı", "Tirit"],
+        "Siirt": ["Büryan Kebabı", "Perde Pilavı", "Zerfet"],
+        "Sinop": ["Mısır Çorbası", "İçli Tava", "Nokul"],
+        "Sivas": ["Sivas Köftesi", "Hingel", "Madımak"],
+        "Şanlıurfa": ["Çiğ Köfte", "Lahmacun", "Küncülü Akıt"],
+        "Sırnak": ["Serbidev", "Kutlık", "Meyre"],
+        "Tekirdağ": ["Tekirdağ Köftesi", "Peynir Helvası", "Hayrabolu Tatlısı"],
+        "Tokat": ["Zile Pekmezi", "Bat", "Tokat Kebabı"],
+        "Trabzon": ["Akçaabat Köftesi", "Kuymak", "Hamsiköy Sütlacı"],
+        "Tunceli": ["Kavut", "Gulik", "Tutmaç"],
+        "Uşak": ["Tarhana Çorbası", "Keşkek", "Cimcik Erişte"],
+        "Van": ["Kavut", "Van Kahvaltısı", "Murtuğa"],
+        "Yalova": ["Yalova Sütlüsü", "Termal Tatlısı", "Çılbır"],
+        "Yozgat": ["Arabaşı", "Yozgat Böreği", "Madımak"],
+        "Zonguldak": ["Uğmaç Çorbası", "Zonguldak Köftesi", "Pumpum Çorbası"]
+        },
+    
+
+    
+    "Abkhazia": {
+    "Sukhumi": ["Mamalyga (Abysta)", "Ajika", "Akud (meat soup)"],
+    "Gagra": ["Ashvlaguan (fresh cheese)", "Ahartsvy (yogurt drink)", "Walnut-stuffed vegetables"],
+    "Gudauta": ["Grilled meats", "Cornbread", "Spicy sauces"],
+    "Ochamchire": ["Fish dishes", "Corn porridge", "Yogurt-based sauces"],
+    "Tkvarcheli": ["Meat stew", "Bean dishes", "Walnut sauces"],
+    "New Athos": ["Mamalyga", "Ajika", "Fresh cheese"],
+    "Pitsunda": ["Seafood", "Dishes with corn flour", "Spicy sauces"]
+        },
+    
+    
+    
+      
+        "Afghanistan": {
+            "Top": [
+    "Kabuli Pulao",
+    "Mantu",
+    "Ashak",
+    "Bolani",
+    "Shorwa",
+    "Qabili Palaw",
+    "Korma",
+    "Aush",
+    "Sabzi",
+    "Sheer Khurma"],
+    "Logar Province": ["Qabili Pulao", "Bolani", "Ashak", "Shorwa", "Kebab"],
+
+          "Kabul Province": ["Kabuli Pulao", "Mantu", "Bolani", "Shorwa"],
+          "Herat Province": ["Ashak", "Qabardagh", "Shir Rogho", "Dalda"],
+          "Kandahar Province ": ["Chopan Kabob", "Kaddo Borwani", "Bolani", "Shorwa"],
+          "Mazar-i-Sharif Province": ["Qabuli Palaw", "Mantu", "Bolani", "Ashak"],
+          "Jalalabad Province": ["Bolani", "Kichrei Qurut", "Shorwa", "Kaddo Borwani"],
+          "Bamyan Province": ["Dalda", "Ashak", "Shir Rogho", "Halwa e Samanak"],
+          "Ghazni Province": ["Bolani", "Mantu", "Shorwa", "Ashak"],
+          "Kunduz Province": ["Kabuli Pulao", "Bolani", "Mantu", "Kaddo Borwani"],
+          "Farah Province": ["Chopan Kabob", "Bolani", "Shorwa", "Ashak"],
+          "Nangarhar Province": ["Bolani", "Kichrei Qurut", "Shorwa", "Kaddo Borwani"]
+        },
+      
+    
+      
+
+      
+    
+      
+        "United States ": {
+          "Alabama": ["Fried green tomatoes", "Barbecue ribs", "Pecan pie"],
+          "Alaska": ["King crab legs", "Salmon", "Reindeer sausage"],
+          "Arizona": ["Chimichangas", "Sonoran hot dogs", "Navajo tacos"],
+          "Arkansas": ["Fried catfish", "Possum pie", "Chicken and dumplings"],
+          "California": ["Avocado toast", "Fish tacos", "Sourdough bread"],
+          "Colorado": ["Rocky Mountain oysters", "Green chili", "Bison burger"],
+          "Connecticut": ["New Haven-style pizza", "Steamed cheeseburgers", "Lobster roll"],
+          "Delaware": ["Scrapple", "Blue crabs", "Chicken and slippery dumplings"],
+          "Florida": ["Key lime pie", "Cuban sandwich", "Stone crab claws"],
+          "Georgia": ["Peach cobbler", "Fried chicken", "Grits"],
+          "Hawaii": ["Poke", "Kalua pig", "Loco moco"],
+          "Idaho": ["Potato dishes", "Finger steaks", "Huckleberry pie"],
+          "Illinois": ["Deep-dish pizza", "Chicago-style hot dog", "Italian beef sandwich"],
+          "Indiana": ["Breaded pork tenderloin sandwich", "Sugar cream pie", "Hoosier chili"],
+          "Iowa": ["Maid-Rite sandwich", "Sweet corn", "Pork tenderloin"],
+          "Kansas": ["Barbecue", "Bierocks", "Burnt ends"],
+          "Kentucky": ["Hot Brown", "Burgoo", "Fried chicken"],
+          "Louisiana": ["Gumbo", "Jambalaya", "Beignets"],
+          "Maine": ["Lobster roll", "Blueberry pie", "Clam chowder"],
+          "Maryland": ["Crab cakes", "Old Bay seasoning dishes", "Pit beef"],
+          "Massachusetts": ["Clam chowder", "Boston baked beans", "Lobster roll"],
+          "Michigan": ["Coney dog", "Pasties", "Detroit-style pizza"],
+          "Minnesota": ["Juicy Lucy", "Tater tot hotdish", "Wild rice soup"],
+          "Mississippi": ["Catfish", "Tamales", "Mud pie"],
+          "Missouri": ["Toasted ravioli", "Gooey butter cake", "Barbecue"],
+          "Montana": ["Bison burger", "Huckleberry jam", "Rocky Mountain oysters"],
+          "Nebraska": ["Runza", "Reuben sandwich", "Corn on the cob"],
+          "Nevada": ["Buffet dishes", "Shrimp cocktail", "Basque cuisine"],
+          "New Hampshire": ["Apple cider donuts", "Clam chowder", "Maple syrup dishes"],
+          "New Jersey": ["Pork roll", "Salt water taffy", "Disco fries"],
+          "New Mexico": ["Green chile stew", "Enchiladas", "Sopaipillas"],
+          "New York": ["New York-style pizza", "Bagel with lox", "Cheesecake"],
+          "North Carolina": ["Pulled pork barbecue", "Hush puppies", "Cheerwine"],
+          "North Dakota": ["Knoephla soup", "Lefse", "Hotdish"],
+          "Ohio": ["Cincinnati chili", "Pierogies", "Buckeyes"],
+          "Oklahoma": ["Chicken-fried steak", "Fried okra", "Barbecue"],
+          "Oregon": ["Marionberry pie", "Dungeness crab", "Hazelnuts"],
+          "Pennsylvania": ["Philly cheesesteak", "Soft pretzel", "Scrapple"],
+          "Rhode Island": ["Clam cakes", "Coffee milk", "Stuffies"],
+          "South Carolina": ["Shrimp and grits", "She-crab soup", "Boiled peanuts"],
+          "South Dakota": ["Chislic", "Kuchen", "Fry bread"],
+          "Tennessee": ["Hot chicken", "Country ham", "Goo Goo Cluster"],
+          "Texas": ["Brisket", "Tex-Mex", "Chicken-fried steak"],
+          "Utah": ["Fry sauce", "Funeral potatoes", "Jell-O salad"],
+          "Vermont": ["Maple syrup dishes", "Cheddar cheese", "Apple pie"],
+          "Virginia": ["Smithfield ham", "Peanut soup", "Brunswick stew"],
+          "Washington": ["Salmon", "Oysters", "Rainier cherries"],
+          "West Virginia": ["Pepperoni roll", "Ramp dishes", "Apple butter"],
+          "Wisconsin": ["Cheese curds", "Bratwurst", "Butter burger"],
+          "Wyoming": ["Bison steak", "Lamb dishes", "Rocky Mountain oysters"],
+          "District of Columbia": ["Half-smoke sausage", "Mumbo sauce wings", "Ben's Chili Bowl chili"]
+        },
+      
+    
+      
+        "Andorra": {
+          "Andorra la Vella": ["Escudella", "Trinxat", "Civet de senglar"],
+          "Escaldes-Engordany": ["Trinxat", "Andorran cannelloni", "Coques"],
+          "Encamp": ["Trucha a la Andorrana", "Escudella", "Coca masegada"],
+          "Sant Julià de Lòria": ["Rabbit with mushrooms", "Shepherd's soup", "Brossat cheese"],
+          "La Massana": ["Trinxat de montanya", "Roast kid with nuts", "Mountain spinach omelette"],
+          "Ordino": ["Civet of wild boar", "Pumpkin purée", "Andorran-style snails"],
+          "Canillo": ["Escudella", "Trinxat", "Flat pastry"],
+          "El Pas de la Casa": ["Escudella", "Trinxat", "Coca masegada"],
+          "Santa Coloma": ["Escudella", "Trinxat", "Andorran-style cod"],
+          "Arinsal": ["Escudella", "Trinxat", "Roast leg of lamb"]
+        },
+      
+     
+    
+      
+        "Antigua and Barbuda": {
+          "St. John's": ["Fungee and Pepperpot", "Ducana", "Saltfish", "Antiguan Butter Bread"],
+          "All Saints": ["Fungee and Pepperpot", "Ducana", "Saltfish", "Antiguan Butter Bread"],
+          "Liberta": ["Fungee and Pepperpot", "Ducana", "Saltfish", "Antiguan Butter Bread"],
+          "Bolands": ["Fungee and Pepperpot", "Ducana", "Saltfish", "Antiguan Butter Bread"],
+          "Potters Village": ["Fungee and Pepperpot", "Ducana", "Saltfish", "Antiguan Butter Bread"],
+          "Codrington": ["Fungee and Pepperpot", "Ducana", "Saltfish", "Antiguan Butter Bread"]
+        },
+      
+      
+      
+      
+"Albania": {
+  "Top": [
+    "Lamb and Yogurt Casserole (Tave Kosi)",
+    "Albanian Veal and Pepper Stew (Fergesë)",
+    "Albanian Pie (Byrek)",
+    "Meatballs (Qofte)",
+    "Peppers with Cheese (Speca me Gjizë)",
+    "Lamb Head Soup (Pace)",
+    "Baklava",
+    "Tres Leches Cake (Trilece)",
+    "Fried Dough (Petulla)",
+    "Albanian Leek Pie (Lakror)"
+  ],
+  "Central Albania": ["Clay Pan Casserole (Tave Dheu)", "Albanian Veal and Pepper Stew (Fergesë)", "Albanian Pie (Byrek)"],
+  "Northern Albania": ["Layered Pancake (Flija)", "Homemade Pasta (Jufka)", "Carp Casserole (Tave Krapi)"],
+  "Southern Albania": ["Rice Balls (Qifqi)", "Pasha Meatballs (Pasha Qofte)", "Albanian Leek Pie (Lakror)"],
+
+  "Berat County": ["Lamb and Yogurt Casserole (Tave Kosi)", "Albanian Pie (Byrek)"],
+  "Peshkopi County": ["Meatballs (Qofte)", "Layered Pancake (Flija)"],
+  "Durrës County": ["Clay Pan Casserole (Tave Dheu)", "Albanian Veal and Pepper Stew (Fergesë)"],
+  "Elbasan County": ["Elbasan Casserole (Tave Elbasani)", "Albanian Cookie (Ballokume)"],
+  "Fier County": ["Lamb Head Soup (Pace)", "Spinach Pie (Byrek me Spinaq)"],
+  "Gjirokastër County": ["Rice Balls (Qifqi)", "Pasha Meatballs (Pasha Qofte)"],
+  "Korçë County": ["Albanian Leek Pie (Lakror)", "Koran Fish"],
+  "Kukës County": ["Layered Pancake (Flija)", "Homemade Pasta (Jufka)"],
+  "Lezhë County": ["Carp Casserole (Tave Krapi)", "Meat Pie (Pite me Mish)"],
+  "Shkodër County": ["Carp Casserole (Tave Krapi)", "Pasta with Meat (Pasta me Mish)"],
+  "Tiranë County": ["Tirana Veal and Pepper Stew (Fergesë Tirane)", "Meatballs (Qofte)"],
+  "Vlorë County": ["Lamb Head Soup (Pace Koke)", "Cheese Pie (Byrek me Djathë)"]
+},
+
+"Greece": {
+  "Top": [
+    "Moussaka",
+    "Souvlaki",
+    "Greek Salad (Horiatiki)",
+    "Stuffed Vine Leaves (Dolmades)",
+    "Spanakopita",
+    "Gyro",
+    "Fasolada",
+    "Pastitsio",
+    "Baklava",
+    "Loukoumades"
+  ],
+  "Macedonia and Thrace": ["Gyro", "Stuffed Vine Leaves (Dolmades)", "Bougatsa"],
+  "Thessaly and Central Greece": ["Spanakopita", "Fasolada", "Galatopita"],
+  "Attica": ["Moussaka", "Souvlaki", "Greek Salad (Horiatiki)"],
+  "Peloponnese, Western Greece and the Ionian": ["Pastitsio", "Baklava", "Lalagia"],
+  "Aegean": ["Loukoumades", "Kopania", "Kalitsounia"],
+  "Crete": ["Cretan Salad (Dakos)", "Gamopilafo", "Apaki"]
+},
+
+"Bulgaria": {
+  "Top": [
+    "Shopska Salad",
+    "Banitsa",
+    "Kebapche",
+    "Tarator",
+    "Kyufte",
+    "Sarmi (Stuffed Cabbage Leaves)",
+    "Lutenitsa",
+    "Moussaka",
+    "Bob Chorba (Bean Soup)",
+    "Shkembe Chorba (Tripe Soup)"
+  ],
+  "Sofia": ["Shopska Salad"],
+  "Plovdiv": ["Sarmi"],
+  "Varna": ["Kebapche"],
+  "Burgas": ["Banitsa"],
+  "Ruse": ["Lutenitsa"],
+  "Veliko Tarnovo": ["Moussaka"],
+  "Stara Zagora": ["Kyufte"],
+  "Haskovo": ["Tarator"]
+},
+
+"North Macedonia": {
+  "Top": [
+    "Tavče Gravče",
+    "Ajvar",
+    "Selsko Meso (Village Meat)",
+    "Kebapi",
+    "Pastrmajlija",
+    "Turli Tava",
+    "Shopska Salad",
+    "Pindjur",
+    "Makalo",
+    "Zelnik"
+  ]
+},
+"Montenegro": {
+  "Top": [
+    "Njeguški Pršut (Njegusi Prosciutto)",
+    "Kačamak",
+    "Cevapi",
+    "Pljeskavica",
+    "Riblja Čorba (Fish Soup)",
+    "Buzara",
+    "Cicvara",
+    "Raštan",
+    "Sarma",
+    "Palačinke (Pancakes)"
+  ]
+},
+
+"Serbia": {
+  "Top": [
+    "Ćevapi",
+    "Pljeskavica",
+    "Sarma",
+    "Gibanica",
+    "Prebranac (Serbian Baked Beans)",
+    "Karadjordjeva Schnitzel",
+    "Punjena Paprika (Stuffed Peppers)",
+    "Ajvar",
+    "Pecenje (Roast Pork/Lamb)",
+    "Komplet Lepinja"
+  ],
+  "Central Serbia": ["Ćevapi", "Gibanica", "Komplet Lepinja"]
+},
+
+"Romania": {
+  "Top": [
+    "Sarmale (Cabbage Rolls)",
+    "Mici (Grilled Minced Meat Rolls)",
+    "Ciorbă de burtă (Tripe Soup)",
+    "Mămăligă (Polenta)",
+    "Cozonac (Sweet Bread)",
+    "Ciorbă de fasole cu afumătură (Bean Soup with Smoked Meat)",
+    "Papanasi (Cheese Doughnuts)",
+    "Tochitură (Pork Stew)",
+    "Drob de miel (Lamb Haggis)",
+    "Salată de boeuf (Beef Salad)"
+  ],
+  "Bistrița-Năsăud": ["Ciorbă de burtă", "Mămăligă"],
+  "Timiș": ["Gulaș", "Mici"],
+  "Cluj": ["Varză à la Cluj", "Sarmale"],
+  "Iași": ["Pască", "Cozonac"],
+  "Constanța": ["Saramură de pește", "Storceag"],
+  "Brașov": ["Papanasi", "Tochitură"],
+  "Sibiu": ["Ciorbă de fasole cu afumătură", "Telemea Cheese"],
+  "București": ["Salată de boeuf", "Mititei"]
+},
+
+"Bosnia and Herzegovina": {
+  "Top": [
+    "Ćevapi",
+    "Begova Čorba (Bey's Soup)",
+    "Burek",
+    "Sogan-dolma (Stuffed Onions)",
+    "Sarma (Stuffed Cabbage Leaves)",
+    "Klepe (Bosnian Dumplings)",
+    "Japrak (Stuffed Grape Leaves)",
+    "Pita (Savory Pie)",
+    "Tufahija (Stuffed Apples)",
+    "Hurmasice (Bosnian Date Cookies)",
+    "Sutlija (Rice Pudding)",
+    "Grah (Bean Stew)",
+    "Pečenje (Roast Meat)",
+    "Uštipci (Fried Dough Balls)",
+    "Pita Zeljanica (Spinach Pie)"
+  ]
+},
+
+"Armenia": {
+  "Top": [
+    "Khorovats (Armenian Barbecue)",
+    "Dolma (Stuffed Grape Leaves)",
+    "Khash",
+    "Harissa",
+    "Lavash (Flatbread)",
+    "Basturma",
+    "Ghapama (Pumpkin Rice Dish)",
+    "Manti (Armenian Dumplings)",
+    "Ishkhan (Sevan Trout)",
+    "Gata (Sweet Pastry)",
+    "Tolma (Stuffed Vegetables)",
+    "Sujukh (Armenian Sausage)"
+  ]
+},
+ 
+"Austria": {
+  "Top": [
+    "Wiener Schnitzel",
+    "Tafelspitz",
+    "Apfelstrudel (Apple Strudel)",
+    "Sachertorte",
+    "Kaiserschmarrn (Shredded Pancake)",
+    "Gulasch (Goulash)",
+    "Backhendl (Fried Chicken)",
+    "Frittatensuppe (Pancake Soup)",
+    "Knödel (Dumplings)",
+    "Erdäpfelsalat (Potato Salad)",
+    "Zwetschkenknödel (Plum Dumplings)",
+    "Leberknödelsuppe (Liver Dumpling Soup)"
+  ]
+},
+
+"Azerbaijan": {
+  "Top": [
+    "Plov (Pilaf)",
+    "Dolma (Stuffed Grape Leaves)",
+    "Kebab",
+    "Dushbara (Dumpling Soup)",
+    "Qutab (Stuffed Flatbread)",
+    "Piti (Lamb and Chickpea Soup)",
+    "Lavangi (Stuffed Chicken or Fish)",
+    "Khingal (Lamb and Noodle Dish)",
+    "Shashlik",
+    "Badimjan Dolmasi (Eggplant Dolma)",
+    "Kukü (Herb Omelet)",
+    "Pakhlava (Baklava)",
+    "Shekerbura (Sweet Pastry)",
+    "Dovga (Yogurt Soup)"
+  ]
+},
+
+"Belarus": {
+  "Top": [
+    "Draniki (Potato Pancakes)",
+    "Machanka (Pork Stew)",
+    "Kolduny (Stuffed Potato Pancakes)",
+    "Kletski (Dumplings)",
+    "Vereshchaka (Pork and Sausage Stew)",
+    "Babka (Potato Bake)",
+    "Tsibriki (Fried Potato Balls)",
+    "Holodnik (Cold Beet Soup)",
+    "Krupnik (Barley Soup)",
+    "Smazhenka (Fried Bread with Cheese)",
+    "Pyachysto (Roast Meat)",
+    "Zrazy (Stuffed Meat Rolls)"
+  ]
+},
+
+"Belgium": {
+  "Top": [
+    "Moules-Frites (Mussels with Fries)",
+    "Stoofvlees (Flemish Beef Stew)",
+    "Waffles",
+    "Speculoos (Spiced Shortcrust Biscuit)",
+    "Waterzooi (Chicken or Fish Stew)",
+    "Grey Shrimp Croquettes",
+    "Endive Gratin (Chicon au Gratin)",
+    "Carbonade Flamande (Beef and Beer Stew)",
+    "Filet Américain (Steak Tartare)",
+    "Belgian Chocolate",
+    "Frites (Belgian Fries)",
+    "Rabbit with Prunes"
+  ]
+},
+
+"Croatia": {
+  "Top": [
+    "Pasticada (Dalmatian Beef Stew)",
+    "Black Risotto (Crni Rižot)",
+    "Strukli (Cheese Pastry)",
+    "Ćevapi",
+    "Soparnik (Swiss Chard Pie)",
+    "Peka (Meat and Vegetables under the Bell)",
+    "Brodet (Fish Stew)",
+    "Fuži with Truffles",
+    "Zagorski Štrukli",
+    "Fritule (Croatian Doughnuts)",
+    "Pašticada",
+    "Sarma (Stuffed Cabbage Rolls)",
+    "Gregada (Fish Stew)",
+    "Rožata (Dalmatian Custard Pudding)"
+  ]
+},
+
+"Cyprus": {
+  "Top": [
+    "Halloumi Cheese",
+    "Sheftalia (Grilled Sausage)",
+    "Kleftiko (Slow-cooked Lamb)",
+    "Souvla (Barbecued Meat)",
+    "Stifado (Beef Stew)",
+    "Moussaka",
+    "Tava (Lamb Casserole)",
+    "Loukoumades (Honey Doughnuts)",
+    "Koupepia (Stuffed Vine Leaves)",
+    "Kolokotes (Pumpkin Pie)",
+    "Flaounes (Easter Cheese Pastries)",
+    "Makaronia tou Fournou (Cypriot Pastitsio)",
+    "Avgolemono Soup",
+    "Tarhana Soup"
+  ]
+},
+"Czech Republic": {
+  "Top": [
+    "Svíčková (Marinated Beef with Cream Sauce)",
+    "Vepřo knedlo zelo (Roast Pork with Dumplings and Sauerkraut)",
+    "Guláš (Goulash)",
+    "Knedlíky (Dumplings)",
+    "Bramboráky (Potato Pancakes)",
+    "Řízek (Schnitzel)",
+    "Česnečka (Garlic Soup)",
+    "Kulajda (Dill Soup with Mushrooms and Egg)",
+    "Moravian Sparrow (Moravský vrabec)",
+    "Trdelník (Chimney Cake)",
+    "Smažený sýr (Fried Cheese)",
+    "Sekaná (Meatloaf)",
+    "Koláče (Sweet Pastries)",
+    "Palačinky (Czech Pancakes)"
+  ]
+},
+
+"Denmark": {
+  "Top": [
+    "Smørrebrød (Open-faced Sandwich)",
+    "Frikadeller (Danish Meatballs)",
+    "Stegt flæsk med persillesovs (Crispy Pork with Parsley Sauce)",
+    "Flæskesteg (Roast Pork)",
+    "Rugbrød (Rye Bread)",
+    "Æbleskiver (Danish Pancake Balls)",
+    "Karbonader (Breaded Pork Patties)",
+    "Stjerneskud (Shooting Star Sandwich)",
+    "Medisterpølse (Danish Sausage)",
+    "Rødgrød med fløde (Red Berry Pudding with Cream)",
+    "Leverpostej (Liver Pâté)",
+    "Boller i karry (Meatballs in Curry Sauce)",
+    "Tarteletter (Chicken and Asparagus Tartlets)",
+    "Koldskål (Buttermilk Soup)"
+  ]
+},
+
+"Estonia": {
+  "Top": [
+    "Verivorst (Blood Sausage)",
+    "Kohuke (Curd Snack)",
+    "Kama (Grain Mix Dessert)",
+    "Mulgikapsad (Pork and Sauerkraut Stew)",
+    "Rosolje (Beetroot Salad)",
+    "Sült (Jellied Pork)",
+    "Kiluvoileib (Sprat Sandwich)",
+    "Hapukapsas (Sauerkraut)",
+    "Leivasupp (Bread Soup)",
+    "Pirukad (Estonian Pies)",
+    "Marineeritud Angerjas (Marinated Eel)",
+    "Vastlakukkel (Shrovetide Bun)",
+    "Kartulipuder (Mashed Potatoes with Gravy)",
+    "Räim (Baltic Herring)"
+  ]
+},
+
+"Finland": {
+  "Top": [
+    "Karjalanpiirakka (Karelian Pie)",
+    "Ruisleipä (Rye Bread)",
+    "Kalakukko (Fish Pie)",
+    "Poronkäristys (Sautéed Reindeer)",
+    "Hernekeitto (Pea Soup)",
+    "Lohikeitto (Salmon Soup)",
+    "Leipäjuusto (Finnish Squeaky Cheese)",
+    "Mustikkapiirakka (Blueberry Pie)",
+    "Graavilohi (Cured Salmon)",
+    "Salmiakki (Salty Licorice)",
+    "Mämmi (Rye Pudding)",
+    "Silli (Pickled Herring)",
+    "Uunilohi (Oven-Baked Salmon)",
+    "Perunalaatikko (Potato Casserole)"
+  ]
+},
+
+"France": {
+  "Top": [
+    "Coq au Vin",
+    "Boeuf Bourguignon",
+    "Ratatouille",
+    "Quiche Lorraine",
+    "Bouillabaisse",
+    "Cassoulet",
+    "Duck Confit (Confit de Canard)",
+    "Tarte Tatin",
+    "Crêpes",
+    "Soupe à l’Oignon (French Onion Soup)",
+    "Croissant",
+    "Escargots de Bourgogne (Burgundy Snails)",
+    "Foie Gras",
+    "Salmon en Papillote",
+    "Crème Brûlée"
+  ]
+},
+
+"Georgia": {
+  "Top": [
+    "Khinkali (Dumplings)",
+    "Khachapuri (Cheese Bread)",
+    "Lobio (Bean Stew)",
+    "Mtsvadi (Grilled Meat Skewers)",
+    "Chakhokhbili (Chicken Stew)",
+    "Badrijani Nigvzit (Eggplant with Walnut Paste)",
+    "Pkhali (Vegetable and Walnut Spread)",
+    "Chakapuli (Herb Stew, usually with Lamb)",
+    "Satsivi (Chicken in Walnut Sauce)",
+    "Chvishtari (Cornbread with Cheese)",
+    "Churchkhela (Walnut Candy)",
+    "Lobiani (Bean-filled Bread)",
+    "Gebjalia (Cheese with Herbs)",
+    "Adjapsandal (Vegetable Stew)"
+  ]
+},
+"Germany": {
+  "Top": [
+    "Bratwurst (Grilled Sausage)",
+    "Sauerkraut (Fermented Cabbage)",
+    "Sauerbraten (Pot Roast)",
+    "Currywurst",
+    "Schnitzel",
+    "Kartoffelsalat (Potato Salad)",
+    "Pretzel (Brezel)",
+    "Spätzle (Egg Noodles)",
+    "Maultaschen (Stuffed Pasta Dumplings)",
+    "Eisbein (Pork Knuckle)",
+    "Rouladen (Beef Rolls)",
+    "Käsespätzle (Cheese Noodles)",
+    "Berliner (Jam-filled Doughnut)",
+    "Apfelstrudel (Apple Strudel)"
+  ]
+},
+
+"Hungary": {
+  "Top": [
+    "Goulash (Gulyás)",
+    "Chicken Paprikash (Paprikás Csirke)",
+    "Fisherman’s Soup (Halászlé)",
+    "Lángos (Fried Dough)",
+    "Pörkölt (Meat Stew)",
+    "Dobos Torte (Layered Chocolate Cake)",
+    "Töltött Káposzta (Stuffed Cabbage)",
+    "Somlói Galuska (Trifle Dessert)",
+    "Kürtőskalács (Chimney Cake)",
+    "Rakott Krumpli (Layered Potato Casserole)",
+    "Rétes (Hungarian Strudel)",
+    "Hortobágyi Palacsinta (Stuffed Pancakes)",
+    "Túrós Csusza (Pasta with Cottage Cheese and Bacon)",
+    "Lecsó (Hungarian Ratatouille)"
+  ]
+},
+"Iceland": {
+  "Top": [
+    "Lamb Soup (Kjötsúpa)",
+    "Plokkfiskur (Fish Stew)",
+    "Skyr (Icelandic Yogurt)",
+    "Hangikjöt (Smoked Lamb)",
+    "Harðfiskur (Dried Fish)",
+    "Svið (Boiled Sheep's Head)",
+    "Rúgbrauð (Rye Bread)",
+    "Pylsur (Icelandic Hot Dog)",
+    "Kleinur (Twisted Doughnuts)",
+    "Flatkaka (Flatbread)",
+    "Hákarl (Fermented Shark)",
+    "Brennivín (Icelandic Schnapps)",
+    "Rækjur (Shrimp)",
+    "Icelandic Fish and Chips"
+  ]
+},
+"Ireland": {
+  "Top": [
+    "Irish Stew",
+    "Boxty (Potato Pancakes)",
+    "Coddle",
+    "Colcannon (Mashed Potatoes with Cabbage)",
+    "Soda Bread",
+    "Seafood Chowder",
+    "Bacon and Cabbage",
+    "Black Pudding",
+    "White Pudding",
+    "Drisheen (Blood Sausage)",
+    "Crubeens (Pigs' Feet)",
+    "Barmbrack (Fruit Bread)",
+    "Dublin Bay Prawns",
+    "Smoked Salmon"
+  ]
+},
+"Italy": {
+  "Top": [
+    "Pizza Margherita",
+    "Lasagna",
+    "Risotto",
+    "Spaghetti alla Carbonara",
+    "Ossobuco",
+    "Parmigiana di Melanzane (Eggplant Parmesan)",
+    "Tiramisu",
+    "Gelato",
+    "Arancini (Rice Balls)",
+    "Polenta",
+    "Focaccia",
+    "Pesto alla Genovese",
+    "Saltimbocca",
+    "Ribollita",
+    "Panettone"
+  ]
+},
+"Kosovo": {
+  "Top": [
+    "Flija",
+    "Tavë Prizreni (Prizren Casserole)",
+    "Pite (Savory Pie)",
+    "Sarma (Stuffed Cabbage Rolls)",
+    "Qebapa (Kebabs)",
+    "Pasul (Bean Stew)",
+    "Byrek (Burek)",
+    "Speca të Mbushura (Stuffed Peppers)",
+    "Ajvar",
+    "Mantia (Small Meat Pies)",
+    "Baklava",
+    "Kacamak (Cornmeal Porridge)",
+    "Suxhuk (Spicy Sausage)",
+    "Tarator (Yogurt Soup)"
+  ]
+},
+
+"Latvia": {
+  "Top": [
+    "Grey Peas with Speck",
+    "Rye Bread (Rupjmaize)",
+    "Piragi (Bacon-filled Pastries)",
+    "Sklandrausis (Carrot and Potato Pie)",
+    "Jāņi Cheese (Caraway Cheese)",
+    "Kārtojums (Layered Rye Bread Dessert)",
+    "Sorrel Soup",
+    "Aspic (Galerts)",
+    "Potato Pancakes",
+    "Kiselis (Fruit Jelly Dessert)",
+    "Cold Beet Soup",
+    "Smoked Fish",
+    "Blood Sausage",
+    "Latvian Meatballs (Frikadeļu zupa)"
+  ]
+},
+"Liechtenstein": {
+  "Top": [
+    "Käsknöpfle (Cheese Noodles)",
+    "Ribel (Cornmeal Porridge)",
+    "Hafalaaba (Barley Soup)",
+    "Torkarebl (Roasted Cornmeal Dish)",
+    "Liechtensteiner Fish Stew",
+    "Schwartenmagen (Brawn or Head Cheese)",
+    "Wurst (Sausages)",
+    "Rösti (Fried Grated Potatoes)",
+    "Apfelstrudel (Apple Strudel)",
+    "Birnenbrot (Pear Bread)",
+    "Schnitzel",
+    "Gedörrtes Fleisch (Dried Meat)"
+  ]
+},
+"Lithuania": {
+  "Top": [
+    "Cepelinai (Potato Dumplings)",
+    "Kugelis (Potato Pudding)",
+    "Šaltibarščiai (Cold Beet Soup)",
+    "Bulviniai Blynai (Potato Pancakes)",
+    "Koldūnai (Dumplings)",
+    "Vėdarai (Potato Sausage)",
+    "Žemaičių Blynai (Samogitian Pancakes)",
+    "Kepta Duona (Fried Bread with Garlic)",
+    "Skilandis (Smoked Meat Sausage)",
+    "Balandėliai (Stuffed Cabbage Rolls)",
+    "Šakotis (Tree Cake)",
+    "Tinginys (Lazy Cake)",
+    "Grikių Košė (Buckwheat Porridge)",
+    "Rugbrødsuppe (Rye Bread Soup)"
+  ]
+},
+"Luxembourg": {
+  "Top": [
+    "Judd mat Gaardebounen (Smoked Pork Collar with Broad Beans)",
+    "Gromperekichelcher (Potato Fritters)",
+    "Bouneschlupp (Green Bean Soup)",
+    "F’rell am Rèisleck (Trout in Riesling Sauce)",
+    "Quetschentaart (Plum Tart)",
+    "Paschtéit (Meat Pie)",
+    "Rieslingspaschtéit (Riesling Pâté)",
+    "Kachkéis (Cooked Cheese)",
+    "Huesenziwwi (Rabbit Stew)",
+    "Träipen (Blood Sausage)",
+    "Grénge Mënschter (Green Minster Cheese)",
+    "Rievkooche (Potato Pancakes)"
+  ]
+},
+"Malta": {
+  "Top": [
+    "Fenkata (Rabbit Stew)",
+    "Pastizzi (Flaky Pastry with Ricotta or Peas)",
+    "Ħobż biż-Żejt (Maltese Bread with Tomato and Olive Oil)",
+    "Bragioli (Beef Olives)",
+    "Kapunata (Maltese Ratatouille)",
+    "Lampuki Pie (Fish Pie)",
+    "Aljotta (Fish Soup)",
+    "Timpana (Baked Macaroni Pie)",
+    "Imqarrun il-Forn (Baked Pasta)",
+    "Ross il-Forn (Baked Rice)",
+    "Qagħaq tal-Għasel (Honey Rings)",
+    "Imqaret (Date Pastries)",
+    "Bigilla (Bean Paste)",
+    "Soppa tal-Armla (Widow’s Soup)"
+  ]
+},
+ "Moldova": {
+  "Top": [
+    "Mămăligă (Cornmeal Porridge)",
+    "Sarmale (Stuffed Cabbage Rolls)",
+    "Plăcintă (Stuffed Pastry)",
+    "Zeamă (Chicken Soup with Noodles)",
+    "Răcituri (Meat Jelly)",
+    "Tocană (Meat Stew)",
+    "Friptură (Roast Meat)",
+    "Mititei (Grilled Minced Meat Rolls)",
+    "Colțunași (Dumplings)",
+    "Cozonac (Sweet Bread)",
+    "Pomana Porcului (Pork Feast Dish)",
+    "Salată de Boeuf (Beef Salad)",
+    "Chiftele (Meatballs)",
+    "Ciorbă de Fasole (Bean Soup)"
+  ]
+},
+"Monaco": {
+  "Top": [
+    "Barbagiuan (Stuffed Pastry)",
+    "Socca (Chickpea Pancake)",
+    "Stocafi (Salted Cod Stew)",
+    "Fougasse (Sweet Bread)",
+    "Pissaladière (Onion and Anchovy Tart)",
+    "Ravioli Monégasque",
+    "Bouillabaisse (Fish Stew)",
+    "Farcis Niçois (Stuffed Vegetables)",
+    "Salade Niçoise",
+    "Tourte de Blettes (Swiss Chard Pie)"
+  ]
+},
+"Netherlands": {
+  "Top": [
+    "Stroopwafels",
+    "Bitterballen",
+    "Haring (Raw Herring)",
+    "Poffertjes (Mini Pancakes)",
+    "Erwtensoep (Pea Soup)",
+    "Kroket",
+    "Patat (Dutch Fries)",
+    "Oliebollen (Dutch Doughnuts)",
+    "Kibbeling (Fried Fish Bites)",
+    "Hutspot (Mashed Potatoes with Vegetables)",
+    "Speculaas (Spiced Cookies)",
+    "Appeltaart (Apple Pie)",
+    "Ontbijtkoek (Breakfast Cake)",
+    "Rijsttafel (Rice Table)"
+  ]
+},
+"Norway": {
+  "Top": [
+    "Rakfisk (Fermented Fish)",
+    "Fårikål (Mutton and Cabbage Stew)",
+    "Kjøttkaker (Meat Cakes)",
+    "Pinnekjøtt (Salted Lamb Ribs)",
+    "Lutefisk (Lye Fish)",
+    "Rømmegrøt (Sour Cream Porridge)",
+    "Smalahove (Sheep's Head)",
+    "Brunost (Brown Cheese)",
+    "Gravlaks (Cured Salmon)",
+    "Sursild (Pickled Herring)",
+    "Koldtbord (Norwegian Buffet)",
+    "Tørrfisk (Stockfish)",
+    "Klippfisk (Dried and Salted Cod)",
+    "Svele (Thick Norwegian Pancake)"
+  ]
+},
+"Poland": {
+  "Top": [
+    "Pierogi (Dumplings)",
+    "Bigos (Hunter's Stew)",
+    "Żurek (Sour Rye Soup)",
+    "Placki ziemniaczane (Potato Pancakes)",
+    "Kielbasa (Polish Sausage)",
+    "Gołąbki (Stuffed Cabbage Rolls)",
+    "Barszcz (Beet Soup)",
+    "Sernik (Cheesecake)",
+    "Rosół (Chicken Soup)",
+    "Flaki (Tripe Soup)",
+    "Oscypek (Smoked Cheese)",
+    "Makowiec (Poppy Seed Cake)",
+    "Gulasz (Goulash)",
+    "Paczki (Polish Doughnuts)"
+  ]
+},
+"Portugal": {
+  "Top": [
+    "Bacalhau à Brás (Salted Cod with Potatoes and Eggs)",
+    "Francesinha (Sandwich with Meat, Cheese, and Sauce)",
+    "Caldo Verde (Green Soup)",
+    "Cozido à Portuguesa (Portuguese Stew)",
+    "Arroz de Marisco (Seafood Rice)",
+    "Amêijoas à Bulhão Pato (Clams in Garlic Sauce)",
+    "Sardinhas Assadas (Grilled Sardines)",
+    "Feijoada (Bean Stew)",
+    "Polvo à Lagareiro (Octopus with Olive Oil and Potatoes)",
+    "Alheira (Garlic Sausage)",
+    "Leitão à Bairrada (Roast Suckling Pig)",
+    "Pastéis de Nata (Custard Tarts)",
+    "Queijo da Serra (Mountain Cheese)",
+    "Tripas à Moda do Porto (Porto-style Tripe)"
+  ]
+},
+"Russia": {
+  "Top": [
+    "Borscht (Beet Soup)",
+    "Pelmeni (Meat Dumplings)",
+    "Blini (Russian Pancakes)",
+    "Olivier Salad (Russian Potato Salad)",
+    "Shchi (Cabbage Soup)",
+    "Solyanka (Sour Soup)",
+    "Beef Stroganoff",
+    "Pirozhki (Stuffed Buns)",
+    "Kulebyaka (Russian Pie)",
+    "Kholodets (Meat Aspic)",
+    "Ukha (Fish Soup)",
+    "Vareniki (Dumplings with Potato, Cheese, or Fruit)",
+    "Syrniki (Cottage Cheese Pancakes)",
+    "Golubtsy (Stuffed Cabbage Rolls)",
+    "Kvass (Fermented Bread Drink)",
+    "Kasha (Buckwheat Porridge)",
+    "Rassolnik (Pickle Soup)",
+    "Okroshka (Cold Soup)",
+    "Zapekanka (Baked Pudding)",
+    "Chebureki (Fried Turnovers)",
+    "Draniki (Potato Pancakes)",
+    "Medovik (Honey Cake)",
+    "Pastila (Fruit Confectionery)",
+    "Shashlik (Grilled Meat Skewers)",
+    "Ponchiki (Russian Doughnuts)",
+    "Priyaniki (Spiced Cookies)",
+    "Tula Gingerbread",
+    "Kurnik (Chicken Pie)",
+    "Pelmennaya (Siberian Dumpling Soup)",
+    "Caviar (Red and Black)",
+    "Rybnik (Fish Pie)",
+    "Charlotte Russe (Fruit and Cream Dessert)"
+  ]
+},
+"San Marino": {
+  "Top": [
+    "Torta Tre Monti (Three Towers Cake)",
+    "Nidi di Rondine (Swallow’s Nests Pasta)",
+    "Passatelli (Breadcrumb Pasta)",
+    "Fagioli con le Cotiche (Beans with Pork Rind)",
+    "Piadina Sammarinese (San Marino Flatbread)",
+    "Cacciatello (Semolina Pudding)",
+    "Lasagna alla Sammarinese",
+    "Tagliatelle alla Bolognese",
+    "Strozzapreti (Hand-rolled Pasta)",
+    "Crostata di Ricotta (Ricotta Tart)"
+  ]
+},
+"Slovakia": {
+  "Top": [
+    "Bryndzové Halušky (Potato Dumplings with Sheep Cheese)",
+    "Kapustnica (Sauerkraut Soup)",
+    "Lokše (Potato Pancakes)",
+    "Zemiakové Placky (Potato Pancakes)",
+    "Vepřo knedlo zelo (Roast Pork with Dumplings and Sauerkraut)",
+    "Guláš (Goulash)",
+    "Pirohy (Dumplings)",
+    "Treska v majonéze (Cod Fish Salad)",
+    "Fazuľová Polievka (Bean Soup)",
+    "Šúľance (Sweet Potato Dough with Poppy Seeds)",
+    "Parené Buchty (Steamed Dumplings)",
+    "Štrúdľa (Strudel)",
+    "Jaternice (Blood Sausage)",
+    "Sekaná (Meatloaf)"
+  ]
+},
+"Slovenia": {
+  "Top": [
+    "Kranjska Klobasa (Carniolan Sausage)",
+    "Potica (Nut Roll)",
+    "Idrija Žlikrofi (Dumplings)",
+    "Jota (Sauerkraut and Bean Stew)",
+    "Štruklji (Rolled Dumplings)",
+    "Prekmurska Gibanica (Layered Cake)",
+    "Bograč (Meat Stew)",
+    "Ričet (Barley and Bean Stew)",
+    "Močnik (Porridge)",
+    "Ocvirki (Pork Cracklings)",
+    "Blejska Kremna Rezina (Bled Cream Cake)",
+    "Matevž (Mashed Potatoes and Beans)",
+    "Belokranjska Pogača (Flatbread)",
+    "Žganci (Buckwheat Spoonbread)"
+  ]
+},
+"Spain": {
+  "Top": [
+    "Paella",
+    "Tortilla Española (Spanish Omelette)",
+    "Gazpacho (Cold Tomato Soup)",
+    "Jamón Ibérico (Iberian Ham)",
+    "Patatas Bravas",
+    "Pulpo a la Gallega (Galician-style Octopus)",
+    "Churros",
+    "Pisto (Spanish Ratatouille)",
+    "Croquetas (Croquettes)",
+    "Fabada Asturiana (Asturian Bean Stew)",
+    "Cocido Madrileño (Madrid Stew)",
+    "Salmorejo (Chilled Tomato Soup)",
+    "Calamares a la Romana (Fried Squid Rings)",
+    "Pimientos de Padrón (Fried Green Peppers)",
+    "Crema Catalana"
+  ]
+},
+"Sweden": {
+  "Top": [
+    "Köttbullar (Swedish Meatballs)",
+    "Gravad Lax (Cured Salmon)",
+    "Janssons Frestelse (Jansson’s Temptation)",
+    "Räksmörgås (Shrimp Sandwich)",
+    "Smörgåstårta (Sandwich Cake)",
+    "Knäckebröd (Crispbread)",
+    "Surströmming (Fermented Herring)",
+    "Prinsesstårta (Princess Cake)",
+    "Raggmunk (Potato Pancakes)",
+    "Pytti Panna (Hash)",
+    "Kroppkakor (Potato Dumplings)",
+    "Ärtsoppa (Pea Soup)",
+    "Ostkaka (Cheesecake)",
+    "Semla (Cardamom Bun with Cream)"
+  ]
+},
+"Switzerland": {
+  "Top": [
+    "Fondue",
+    "Rösti",
+    "Raclette",
+    "Zürcher Geschnetzeltes (Zurich-style Sliced Veal)",
+    "Bircher Müesli",
+    "Basler Läckerli (Spiced Biscuit)",
+    "Älplermagronen (Alpine Macaroni)",
+    "Saffron Risotto",
+    "Tartiflette",
+    "Nusstorte (Nut Tart)",
+    "Zopf (Swiss Plaited Bread)",
+    "Saucisson Vaudois (Smoked Sausage)",
+    "Cholera (Vegetable Pie)",
+    "Malakoff (Fried Cheese Balls)"
+  ]
+},
+"Ukraine": {
+  "Top": [
+    "Borscht (Beet Soup)",
+    "Varenyky (Dumplings, also called Pierogi)",
+    "Holubtsi (Stuffed Cabbage Rolls)",
+    "Salo (Cured Pork Fat)",
+    "Chicken Kyiv",
+    "Deruny (Potato Pancakes)",
+    "Banush (Cornmeal with Cheese and Bacon)",
+    "Olivier Salad (Russian Salad)",
+    "Kutia (Wheat Berry Pudding)",
+    "Uzvar (Dried Fruit Compote)",
+    "Nalysnyky (Stuffed Crepes)",
+    "Kholodets (Meat Aspic)",
+    "Kiev Cake",
+    "Pampushky (Garlic Bread Rolls)"
+  ]
+},
+"United Kingdom": {
+  "Top": [
+    "Fish and Chips",
+    "Shepherd's Pie",
+    "Full English Breakfast",
+    "Roast Beef and Yorkshire Pudding",
+    "Chicken Tikka Masala",
+    "Cornish Pasty",
+    "Bangers and Mash (Sausages with Mashed Potatoes)",
+    "Steak and Kidney Pie",
+    "Black Pudding",
+    "Scotch Egg",
+    "Welsh Rarebit",
+    "Ploughman's Lunch",
+    "Eton Mess",
+    "Sticky Toffee Pudding",
+    "Trifle"
+  ]
+},
+
+"Bahrain": {
+  "Top": [
+    "Machboos (Spiced Rice with Meat or Fish)",
+    "Muhammar (Sweet Rice)",
+    "Samboosa (Samosa)",
+    "Ghoozi (Stuffed Lamb)",
+    "Harees (Wheat and Meat Porridge)",
+    "Balaleet (Sweet Vermicelli with Eggs)",
+    "Jireesh (Crushed Wheat with Meat or Chicken)",
+    "Quzi (Slow-cooked Lamb on Rice)",
+    "Thareed (Bread and Meat Stew)",
+    "Mahyawa (Spiced Fish Sauce)",
+    "Khabeesa (Sweet Semolina Dessert)",
+    "Luqaimat (Sweet Dumplings)"
+  ]
+},
+"Brunei": {
+  "Top": [
+    "Ambuyat",
+    "Nasi Lemak",
+    "Nasi Katok",
+    "Ayam Penyet (Smashed Fried Chicken)",
+    "Satay",
+    "Hati Buyah (Fried Beef Lung)",
+    "Kelupis (Glutinous Rice Rolls)",
+    "Soto (Noodle Soup)",
+    "Pulut Panggang (Grilled Glutinous Rice)",
+    "Cucur (Fried Fritters)",
+    "Seri Muka (Layered Glutinous Rice Cake)",
+    "Udang Sambal Serai Bersantan (Prawn in Spicy Coconut Sauce)"
+  ]
+},
+"Cambodia": {
+  "Top": [
+    "Amok Trey (Fish Amok)",
+    "Bai Sach Chrouk (Grilled Pork and Rice)",
+    "Nom Banh Chok (Khmer Noodles)",
+    "Lok Lak (Stir-Fried Beef)",
+    "Kuy Teav (Noodle Soup)",
+    "Samlor Korkor (Vegetable Soup)",
+    "Samlor Machu Trey (Sour Fish Soup)",
+    "Prahok Ktis (Minced Pork with Coconut and Prahok)",
+    "Cha Houy Teuk (Jelly Dessert)",
+    "Kralan (Sticky Rice in Bamboo)",
+    "Ang Dtray Meuk (Grilled Squid)",
+    "Num Pang (Khmer Baguette Sandwich)"
+  ]
+},
+"China": {
+  "Top": [
+    "Peking Duck",
+    "Kung Pao Chicken",
+    "Sweet and Sour Pork",
+    "Mapo Tofu",
+    "Dim Sum",
+    "Hot Pot",
+    "Chow Mein (Stir-fried Noodles)",
+    "Wonton Soup",
+    "Dumplings (Jiaozi)",
+    "Char Siu (Barbecue Pork)",
+    "Spring Rolls",
+    "Ma Po Eggplant",
+    "Zhajiangmian (Soybean Paste Noodles)",
+    "Beggar's Chicken",
+    "Sichuan Boiled Fish",
+    "Red Braised Pork Belly (Hong Shao Rou)",
+    "Yangzhou Fried Rice",
+    "Lion's Head Meatballs",
+    "Century Eggs",
+    "Mooncake"
+  ]
+},
+"Indonesia": {
+  "Top": [
+    "Nasi Goreng (Fried Rice)",
+    "Satay (Sate)",
+    "Rendang (Spicy Beef Stew)",
+    "Gado-Gado (Vegetable Salad with Peanut Sauce)",
+    "Soto (Traditional Soup)",
+    "Bakso (Meatball Soup)",
+    "Gudeg (Sweet Jackfruit Stew)",
+    "Ayam Goreng (Fried Chicken)",
+    "Sop Buntut (Oxtail Soup)",
+    "Pempek (Fish Cake)",
+    "Soto Betawi (Beef Soup)",
+    "Martabak (Stuffed Pancake)",
+    "Tempeh",
+    "Rawon (Black Beef Soup)"
+  ]
+},
+"Iraq": {
+  "Top": [
+    "Masgouf (Grilled Fish)",
+    "Dolma (Stuffed Vegetables)",
+    "Kebabs",
+    "Quzi (Stuffed Whole Lamb)",
+    "Kubba (Meat-stuffed Bulgur Patties)",
+    "Tepsi Baytinijan (Eggplant Casserole)",
+    "Biryani",
+    "Tashreeb (Bread Soup)",
+    "Samak Masgouf (Carp on Fire)",
+    "Marga (Stew)",
+    "Bagilla Bil Dihin (Fava Beans with Oil)",
+    "Makhlama (Eggs with Meat)",
+    "Kleicha (Date-filled Pastry)",
+    "Mansaf (Lamb and Yogurt Rice Dish)"
+  ]
+},
+"Israel": {
+  "Top": [
+    "Falafel",
+    "Hummus",
+    "Shakshuka",
+    "Sabich (Eggplant Sandwich)",
+    "Jachnun (Rolled Dough Pastry)",
+    "Malawach (Yemeni Pancake)",
+    "Bourekas (Stuffed Pastry)",
+    "Jerusalem Mixed Grill",
+    "Schnitzel",
+    "Challah (Egg Bread)",
+    "Kubbeh (Semolina Dumplings in Soup)",
+    "Shawarma",
+    "Ptitim (Israeli Couscous)",
+    "Meorav Yerushalmi (Jerusalem Grill Mix)",
+    "Sufganiyah (Jelly Doughnut)"
+  ]
+},
+"Japan": {
+  "Top": [
+    "Sushi",
+    "Ramen",
+    "Tempura",
+    "Okonomiyaki",
+    "Sashimi",
+    "Yakitori",
+    "Tonkatsu",
+    "Takoyaki",
+    "Udon",
+    "Soba",
+    "Miso Soup",
+    "Kaiseki (Traditional Multi-course Meal)",
+    "Unagi (Grilled Eel)",
+    "Onigiri (Rice Ball)",
+    "Gyoza (Dumplings)"
+  ]
+},
+"Jordan": {
+  "Top": [
+    "Mansaf (Lamb with Rice and Yogurt Sauce)",
+    "Maqluba (Upside Down Rice Dish)",
+    "Falafel",
+    "Hummus",
+    "Kofta (Meatballs)",
+    "Musakhan (Sumac Chicken with Onions and Bread)",
+    "Warak Enab (Stuffed Grape Leaves)",
+    "Magloubeh (Layered Rice Dish)",
+    "Shorbat Adas (Lentil Soup)",
+    "Galayet Bandora (Tomato Stew)",
+    "Knafeh (Sweet Cheese Pastry)",
+    "Zarb (Bedouin Barbecue)",
+    "Tabbouleh",
+    "Baba Ganoush"
+  ]
+},
+"Kuwait": {
+  "Top": [
+    "Machboos (Spiced Rice with Meat or Fish)",
+    "Harees (Wheat and Meat Porridge)",
+    "Jireesh (Crushed Wheat with Chicken or Lamb)",
+    "Mutabbaq Samak (Fish with Rice)",
+    "Margoog (Vegetable and Meat Stew)",
+    "Maglooba (Layered Rice Dish)",
+    "Samboosa (Stuffed Pastry)",
+    "Balaleet (Sweet Vermicelli with Eggs)",
+    "Gabout (Stuffed Dumplings in Stew)",
+    "Kebabs",
+    "Quozi (Stuffed Lamb)",
+    "Luqaimat (Sweet Dumplings)",
+    "Muhallabia (Milk Pudding)"
+  ]
+},
+"Kyrgyzstan": {
+  "Top": [
+    "Beshbarmak (Boiled Meat with Noodles)",
+    "Lagman (Hand-pulled Noodle Soup)",
+    "Shorpo (Meat Soup)",
+    "Plov (Pilaf)",
+    "Samsa (Baked Meat Pastries)",
+    "Manti (Steamed Dumplings)",
+    "Kuurdak (Fried Meat and Potatoes)",
+    "Boorsok (Fried Dough)",
+    "Chuchuk (Kyrgyz Sausage)",
+    "Kymyz (Fermented Mare's Milk)",
+    "Ashlyanfu (Cold Noodle Soup)",
+    "Chak-chak (Fried Dough with Honey)",
+    "Zhorgom (Millet Drink)",
+    "Katama (Layered Fried Bread)"
+  ]
+},
+"Laos": {
+  "Top": [
+    "Larb (Minced Meat Salad)",
+    "Sticky Rice (Khao Niaw)",
+    "Tam Mak Hoong (Green Papaya Salad)",
+    "Khao Piak Sen (Noodle Soup)",
+    "Mok Pa (Steamed Fish in Banana Leaves)",
+    "Sai Oua (Lao Sausage)",
+    "Khao Soi (Lao Noodle Soup)",
+    "Or Lam (Lao Stew)",
+    "Ping Gai (Grilled Chicken)",
+    "Naem Khao (Crispy Rice Salad)",
+    "Kaipen (Fried River Weed)",
+    "Feu (Lao Pho)",
+    "Jeow Bong (Chili Paste)",
+    "Kanom Krok (Coconut Rice Pancakes)"
+  ]
+},
+"Lebanon": {
+  "Top": [
+    "Tabbouleh",
+    "Hummus",
+    "Kibbeh",
+    "Fattoush",
+    "Manakish (Lebanese Flatbread)",
+    "Kafta (Grilled Meat Skewers)",
+    "Sfiha (Meat Pies)",
+    "Falafel",
+    "Baba Ganoush",
+    "Shawarma",
+    "Warak Enab (Stuffed Grape Leaves)",
+    "Moujadara (Lentil and Rice Stew)",
+    "Fatteh (Layered Bread with Chickpeas and Yogurt)",
+    "Kanafeh (Cheese Dessert)"
+  ]
+},
+"Malaysia": {
+  "Top": [
+    "Nasi Lemak",
+    "Char Kway Teow (Stir-fried Rice Noodles)",
+    "Satay (Grilled Skewers)",
+    "Rendang (Spicy Meat Stew)",
+    "Laksa (Spicy Noodle Soup)",
+    "Roti Canai (Flatbread)",
+    "Hainanese Chicken Rice",
+    "Mee Goreng (Fried Noodles)",
+    "Asam Pedas (Sour and Spicy Fish)",
+    "Nasi Kandar",
+    "Cendol (Iced Dessert)",
+    "Kuih (Traditional Cakes)",
+    "Teh Tarik (Pulled Tea)",
+    "Bak Kut Teh (Pork Rib Soup)"
+  ]
+},
+"Maldives": {
+  "Top": [
+    "Mas Huni (Tuna Salad with Coconut)",
+    "Garudhiya (Fish Soup)",
+    "Fihunu Mas (Grilled Fish)",
+    "Kulhi Boakibaa (Fish Cake)",
+    "Roshi (Flatbread)",
+    "Boshi Mashuni (Banana Flower Salad)",
+    "Hedhikaa (Maldivian Short Eats)",
+    "Kulhimas (Spicy Fried Fish)",
+    "Rihaakuru (Fish Paste)",
+    "Theluli Mas (Fried Fish)",
+    "Dhon Riha (Tuna Curry)",
+    "Kavaabu (Fried Snack Balls)",
+    "Bondibaiy (Sweetened Rice)",
+    "Bis Keemiya (Stuffed Pastry)"
+  ]
+},
+"Nepal": {
+  "Top": [
+    "Dal Bhat (Lentil Soup with Rice)",
+    "Momo (Dumplings)",
+    "Sel Roti (Rice Bread)",
+    "Gundruk (Fermented Leafy Greens)",
+    "Yomari (Sweet Rice Dumpling)",
+    "Dhido (Buckwheat or Millet Porridge)",
+    "Aloo Tama (Potato and Bamboo Shoot Curry)",
+    "Chatamari (Rice Crepe)",
+    "Kwati (Mixed Bean Soup)",
+    "Sukuti (Dried Meat)",
+    "Thukpa (Noodle Soup)",
+    "Sandheko (Spiced Salad)",
+    "Bara (Lentil Patties)",
+    "Juju Dhau (King of Yogurt)"
+  ]
+},
+"North Korea": {
+  "Top": [
+    "Naengmyeon (Cold Noodles)",
+    "Kimchi",
+    "Pansangi (Assorted Dishes on a Tray)",
+    "Bulgogi (Marinated Beef, Korean-style)",
+    "Pul-gogi (Grilled Beef)",
+    "Kimchi-jjigae (Kimchi Stew)",
+    "Tangogiguk (Beef Soup)",
+    "Kongguksu (Soybean Noodle Soup)",
+    "Sundubu-jjigae (Soft Tofu Stew)",
+    "Songpyeon (Rice Cakes)",
+    "Manduguk (Dumpling Soup)",
+    "Tteokguk (Rice Cake Soup)",
+    "Japchae (Stir-fried Glass Noodles)",
+    "Ojingeo Bokkeum (Stir-fried Squid)"
+  ]
+},
+"Pakistan": {
+  "Top": [
+    "Biryani",
+    "Nihari",
+    "Haleem",
+    "Karahi (Spiced Curry, usually with Chicken or Mutton)",
+    "Chapli Kebab",
+    "Saag (Leafy Greens Stew)",
+    "Aloo Keema (Potato and Minced Meat Curry)",
+    "Halwa Puri",
+    "Paya (Trotter Stew)",
+    "Chicken Tikka",
+    "Seekh Kebab",
+    "Qeema (Minced Meat Curry)",
+    "Daal (Lentil Stew)",
+    "Roghani Naan",
+    "Sindhi Biryani"
+  ]
+},
+"Philippines": {
+  "Top": [
+    "Adobo",
+    "Sinigang (Sour Soup)",
+    "Lechon (Roast Pig)",
+    "Kare-Kare (Peanut Stew)",
+    "Pancit (Noodles)",
+    "Lumpia (Spring Rolls)",
+    "Halo-Halo (Mixed Shaved Ice Dessert)",
+    "Laing (Taro Leaves in Coconut Milk)",
+    "Bicol Express (Spicy Pork in Coconut Milk)",
+    "Paksiw na Lechon (Lechon Stew)",
+    "Pancit Canton (Stir-fried Noodles)",
+    "Puto (Steamed Rice Cake)",
+    "Bibingka (Baked Rice Cake)",
+    "Menudo (Pork and Liver Stew)"
+  ]
+},
+"Qatar": {
+  "Top": [
+    "Machboos (Spiced Rice with Meat or Fish)",
+    "Harees (Wheat and Meat Porridge)",
+    "Madrouba (Rice Porridge with Chicken)",
+    "Saloona (Spicy Meat and Vegetable Stew)",
+    "Thareed (Bread and Meat Stew)",
+    "Balaleet (Sweet Vermicelli with Eggs)",
+    "Majboos (Another Spelling of Machboos)",
+    "Samboosa (Stuffed Pastry)",
+    "Luqaimat (Sweet Dumplings)",
+    "Jareesh (Crushed Wheat with Meat or Chicken)",
+    "Kousa Mahshi (Stuffed Zucchini)",
+    "Umm Ali (Bread Pudding Dessert)",
+    "Khabees (Sweet Semolina Dessert)"
+  ]
+},
+"Saudi Arabia": {
+  "Top": [
+    "Kabsa (Spiced Rice with Meat)",
+    "Mandi (Rice with Meat, Cooked in a Tandoor)",
+    "Jareesh (Crushed Wheat with Meat or Chicken)",
+    "Mutabbaq (Stuffed Savory Pancake)",
+    "Saleeg (Creamy Rice with Chicken)",
+    "Samoli (Saudi Bread)",
+    "Harees (Wheat and Meat Porridge)",
+    "Thareed (Bread and Meat Stew)",
+    "Haneeth (Slow-cooked Meat and Rice)",
+    "Maamoul (Date-filled Pastry)",
+    "Falafel",
+    "Shawarma",
+    "Luqaimat (Sweet Dumplings)",
+    "Basbousa (Semolina Cake)"
+  ]
+},
+"Singapore": {
+  "Top": [
+    "Hainanese Chicken Rice",
+    "Chilli Crab",
+    "Laksa",
+    "Char Kway Teow (Stir-fried Noodles)",
+    "Satay",
+    "Kaya Toast",
+    "Fish Head Curry",
+    "Hokkien Mee (Stir-fried Noodles with Seafood)",
+    "Roti Prata (Indian Flatbread)",
+    "Nasi Lemak",
+    "Bak Kut Teh (Pork Rib Soup)",
+    "Popiah (Fresh Spring Rolls)",
+    "Mee Rebus (Egg Noodles in Gravy)",
+    "Carrot Cake (Fried Radish Cake)"
+  ]
+},
+"South Korea": {
+  "Top": [
+    "Kimchi",
+    "Bibimbap",
+    "Bulgogi (Marinated Beef BBQ)",
+    "Japchae (Stir-fried Glass Noodles)",
+    "Tteokbokki (Spicy Rice Cakes)",
+    "Samgyeopsal (Grilled Pork Belly)",
+    "Jjajangmyeon (Black Bean Noodles)",
+    "Sundubu-jjigae (Soft Tofu Stew)",
+    "Haemul Pajeon (Seafood Pancake)",
+    "Naengmyeon (Cold Buckwheat Noodles)",
+    "Gimbap (Korean Sushi Rolls)",
+    "Galbi (Grilled Short Ribs)",
+    "Dakgalbi (Spicy Stir-fried Chicken)",
+    "Kimchi Jjigae (Kimchi Stew)"
+  ]
+},
+"Sri Lanka": {
+  "Top": [
+    "Rice and Curry",
+    "Hoppers (Appa)",
+    "Kottu Roti",
+    "Lamprais",
+    "Pol Sambol (Coconut Relish)",
+    "Dhal Curry (Parippu)",
+    "Fish Ambul Thiyal (Sour Fish Curry)",
+    "String Hoppers (Idiyappam)",
+    "Wambatu Moju (Eggplant Pickle)",
+    "Pittu",
+    "Kukul Mas Curry (Chicken Curry)",
+    "Gotu Kola Sambol",
+    "Lunu Miris (Spicy Sambol)",
+    "Watalappan (Coconut Custard Pudding)"
+  ]
+},
+"Taiwan": {
+  "Top": [
+    "Beef Noodle Soup",
+    "Braised Pork Rice (Lu Rou Fan)",
+    "Oyster Omelette",
+    "Gua Bao (Pork Belly Bun)",
+    "Stinky Tofu",
+    "Three Cup Chicken (San Bei Ji)",
+    "Bubble Tea (Boba)",
+    "Scallion Pancake",
+    "Pineapple Cake",
+    "Douhua (Tofu Pudding)",
+    "Ba-wan (Taiwanese Meatball)",
+    "Popcorn Chicken",
+    "Fried Chicken Cutlet",
+    "Lu Wei (Braised Food Platter)"
+  ]
+},
+"Thailand": {
+  "Top": [
+    "Pad Thai",
+    "Tom Yum Goong (Spicy Shrimp Soup)",
+    "Som Tum (Green Papaya Salad)",
+    "Massaman Curry",
+    "Green Curry (Gaeng Keow Wan)",
+    "Khao Pad (Fried Rice)",
+    "Pad Kra Pao (Holy Basil Stir-fry)",
+    "Panang Curry",
+    "Tom Kha Gai (Chicken Coconut Soup)",
+    "Satay",
+    "Khao Soi (Northern Thai Curry Noodles)",
+    "Larb (Minced Meat Salad)",
+    "Mango Sticky Rice",
+    "Kuay Teow (Thai Noodle Soup)"
+  ]
+},
+"Turkmenistan": {
+  "Top": [
+    "Plov (Pilaf)",
+    "Ichlekli (Meat Pie)",
+    "Dograma (Bread and Lamb Soup)",
+    "Gowurma (Fried Meat)",
+    "Shurpa (Meat and Vegetable Soup)",
+    "Batyrma (Eggplant Stew)",
+    "Manti (Steamed Dumplings)",
+    "Kavurma (Fried Lamb or Beef)",
+    "Chorek (Turkmen Bread)",
+    "Gutap (Stuffed Flatbread)",
+    "Syudje (Turkmen Sausage)",
+    "Pishme (Fried Dough)",
+    "Gok Chorek (Herb Bread)",
+    "Sumalak (Wheat Dessert)"
+  ]
+},
+"United Arab Emirates": {
+  "Top": [
+    "Al Harees (Wheat and Meat Porridge)",
+    "Al Machboos (Spiced Rice with Meat or Fish)",
+    "Shawarma",
+    "Al Majboos (Another Spelling of Machboos)",
+    "Luqaimat (Sweet Dumplings)",
+    "Balaleet (Sweet Vermicelli with Eggs)",
+    "Khuzi (Stuffed Whole Lamb)",
+    "Samboosa (Stuffed Pastry)",
+    "Thareed (Bread and Meat Stew)",
+    "Jasheed (Spiced Minced Shark)",
+    "Saloona (Meat and Vegetable Stew)",
+    "Camel Meat",
+    "Kebabs",
+    "Stuffed Vine Leaves"
+  ]
+},
+"Uzbekistan": {
+  "Top": [
+    "Plov (Pilaf)",
+    "Shashlik (Grilled Meat Skewers)",
+    "Lagman (Hand-pulled Noodle Soup)",
+    "Manti (Steamed Dumplings)",
+    "Samsa (Baked Meat Pastry)",
+    "Shurpa (Meat and Vegetable Soup)",
+    "Naryn (Cold Noodle and Meat Salad)",
+    "Chuchvara (Meat-filled Dumplings)",
+    "Somsa (Uzbek Meat Pie)",
+    "Beshbarmak",
+    "Kazan Kabob",
+    "Tandoor Bread (Non)",
+    "Gumma (Steamed Buns)",
+    "Halva (Sweet Dessert)"
+  ]
+},
+"Vietnam": {
+  "Top": [
+    "Pho (Noodle Soup)",
+    "Banh Mi (Vietnamese Sandwich)",
+    "Goi Cuon (Spring Rolls / Fresh Rolls)",
+    "Bun Cha (Grilled Pork with Noodles)",
+    "Bun Bo Hue (Spicy Beef Noodle Soup)",
+    "Com Tam (Broken Rice)",
+    "Ca Kho To (Caramelized Fish in Clay Pot)",
+    "Banh Xeo (Savoury Crispy Pancake)",
+    "Cha Ca (Turmeric Fish with Dill)",
+    "Hu Tieu (Pork and Seafood Noodle Soup)",
+    "Mi Quang (Turmeric Noodle Soup)",
+    "Xoi (Sticky Rice)",
+    "Canh Chua (Sour Soup)",
+    "Che (Vietnamese Sweet Dessert Soup)"
+  ]
+},
+"Algeria": {
+  "Top": [
+    "Couscous",
+    "Chakchouka",
+    "Rechta (Algerian Noodle Dish)",
+    "Mhajeb (Stuffed Flatbread)",
+    "Makroud (Date-filled Semolina Pastry)",
+    "Merguez (Spicy Sausage)",
+    "Harira (Soup with Lentils and Chickpeas)",
+    "Brik (Fried Pastry with Egg and Tuna)",
+    "Dolma (Stuffed Vegetables)",
+    "Chorba Frik (Wheat and Meat Soup)",
+    "Tajine Zitoun (Olive Tagine)",
+    "Karentika (Chickpea Flan)",
+    "Derssa (Garlic Chili Sauce)",
+    "Kalb el Louz (Semolina and Almond Cake)"
+  ]
+},
+"Angola": {
+  "Top": [
+    "Muamba de Galinha (Chicken Stew with Palm Oil)",
+    "Calulu (Fish or Meat Stew with Vegetables)",
+    "Moamba de Peixe (Fish Stew)",
+    "Funje (Cassava Porridge)",
+    "Funge de Bombo (Cassava Flour Porridge)",
+    "Kizaca (Cassava Leaves Stew)",
+    "Mufete (Grilled Fish with Sides)",
+    "Cabidela (Chicken or Duck with Blood Sauce)",
+    "Pirão (Fish Gravy with Cassava Flour)",
+    "Chikuanga (Cassava Bread)",
+    "Ginguba (Peanut Sauce)",
+    "Doce de Ginguba (Peanut Candy)",
+    "Cocada Amarela (Egg and Coconut Dessert)",
+    "Quibeba (Pumpkin Porridge)"
+  ]
+},
+"Benin": {
+  "Top": [
+    "Amiwo (Tomato and Cornmeal Paste)",
+    "Pâte (Maize or Cassava Dough)",
+    "Aklui (Cooked Corn Dough)",
+    "Ayiwò (Fermented Corn Dough)",
+    "Kuli-Kuli (Peanut Snack)",
+    "Yovo Doko (Beninese Doughnuts)",
+    "Aziin Nusunnu (Grilled Fish)",
+    "Fufu (Pounded Yam or Cassava)",
+    "Wagasi (Local Cheese)",
+    "Egusi Soup (Melon Seed Soup)",
+    "Agonlin Meat (Spiced Goat Meat)",
+    "Gari (Cassava Granules)",
+    "Akassa (Fermented Cornmeal)",
+    "Dekounoun Sounnou (Fried Plantains)"
+  ]
+},
+"Burkina Faso": {
+  "Top": [
+    "To (Millet or Sorghum Dough)",
+    "Riz Gras (Fat Rice/Jollof Rice)",
+    "Poulet Bicyclette (Grilled Chicken)",
+    "Babenda (Leafy Greens Stew)",
+    "Sauce Gombo (Okra Sauce)",
+    "Fufu (Pounded Yam or Cassava)",
+    "Yam Porridge",
+    "Brochettes (Meat Skewers)",
+    "Tô Zafi (Thick Porridge)",
+    "Soumbala (Fermented Locust Bean Seasoning)",
+    "Kedjenou (Chicken Stew)",
+    "Dolo (Local Beer)",
+    "Gnonmi (Fried Dough Balls)",
+    "Maasa (Rice Fritters)"
+  ]
+},
+"Botswana": {
+  "Top": [
+    "Seswaa (Pounded Beef)",
+    "Bogobe (Sorghum or Maize Porridge)",
+    "Vetkoek (Fried Bread Dough)",
+    "Morogo (Wild Spinach)",
+    "Dikgobe (Beans and Samp)",
+    "Phane (Mopane Worms)",
+    "Serobe (Offal Stew)",
+    "Magwinya (Fat Cakes)",
+    "Ting (Fermented Porridge)",
+    "Chicken in Peanut Sauce",
+    "Tswi (Water Lily Roots)",
+    "Mopane Worm Stew",
+    "Maize Meal Porridge",
+    "Goat Meat Stew"
+  ]
+},
+"Burundi": {
+  "Top": [
+    "Ugali (Maize Porridge)",
+    "Brochettes (Meat Skewers)",
+    "Mukeke (Lake Fish)",
+    "Boko Boko Harees (Wheat and Chicken Porridge)",
+    "Ibihaza (Pumpkin with Beans)",
+    "Isombe (Cassava Leaves with Peanuts)",
+    "Beans Stew",
+    "Rice with Peas",
+    "Plantains",
+    "Matura and Mahu (Goat or Cow Intestines)",
+    "Chapati",
+    "Ndizi (Banana Dish)",
+    "Fried Sweet Potatoes",
+    "Mandazi (Fried Doughnuts)"
+  ]
+},
+"Cabo Verde": {
+  "Top": [
+    "Cachupa (Corn and Bean Stew)",
+    "Pastel (Fried Pastry with Fish or Meat)",
+    "Grogue (Sugarcane Liquor)",
+    "Buzio (Sea Snail Stew)",
+    "Canja (Chicken and Rice Soup)",
+    "Lagostada (Lobster Dish)",
+    "Moreia Frita (Fried Moray Eel)",
+    "Feijoada (Bean Stew)",
+    "Arroz de Marisco (Seafood Rice)",
+    "Torresmos (Pork Cracklings)",
+    "Doce de Papaya (Papaya Dessert)",
+    "Percebes (Goose Barnacles)",
+    "Chamuça (Samosa)",
+    "Pudim de Queijo (Cheese Pudding)"
+  ]
+},
+"Cameroon": {
+  "Top": [
+    "Ndolé (Bitterleaf Stew)",
+    "Poulet DG (Director-General Chicken)",
+    "Achu Soup",
+    "Koki (Steamed Bean Cake)",
+    "Eru (Leafy Green Stew)",
+    "Kondre (Plantain and Meat Stew)",
+    "Mbongo Tchobi (Black Sauce Stew)",
+    "Kpwem (Vegetable Soup)",
+    "Pepper Soup",
+    "Soya (Grilled Meat Skewers)",
+    "Okok (Spinach and Peanut Stew)",
+    "Fufu (Cassava Dough)",
+    "Kwacoco Bible (Grated Cocoyam Pudding)",
+    "Chin Chin (Fried Dough Snack)"
+  ]
+},
+"Central African Republic": {
+  "Top": [
+    "Muamba de Galinha (Chicken Stew with Palm Oil)",
+    "Gozo (Cassava Fufu)",
+    "Kanda (Meatballs in Sauce)",
+    "Fufu (Cassava or Yam Dough)",
+    "Makara (Fried Dough Balls)",
+    "Saka Saka (Cassava Leaves Stew)",
+    "Egusi Soup (Melon Seed Soup)",
+    "Maboké (Steamed Fish in Banana Leaves)",
+    "Gnetum Soup (Wild Spinach Soup)",
+    "Gboudi (Groundnut Soup)",
+    "Bambara (Peanut Porridge)",
+    "Kpangnan (Boiled Plantains)",
+    "Kanda ti Nyama (Meatballs with Peanut Sauce)",
+    "Kwakoukou (Fermented Cassava Bread)"
+  ]
+},
+"Chad": {
+  "Top": [
+    "Jarret de Boeuf (Beef Stew)",
+    "Bouillie (Millet Porridge)",
+    "La Boule (Sorghum or Millet Dough)",
+    "Kisra (Sorghum Flatbread)",
+    "Esh (Millet Porridge)",
+    "Moulah (Meat Stew)",
+    "Foul (Fava Bean Stew)",
+    "Djerma (Rice and Meat Dish)",
+    "Daraba (Okra and Vegetable Stew)",
+    "Capitaine (Grilled Nile Perch)",
+    "Aiyash (Millet Balls)",
+    "Salat de Chad (Chadian Salad)",
+    "Karkanji (Hibiscus Drink)",
+    "Fataya (Fried Pastry)"
+  ]
+},
+"Liberia": {
+  "Top": [
+    "Jollof Rice",
+    "Palm Butter Soup",
+    "Cassava Leaf Stew",
+    "Potato Greens",
+    "Fufu (Fermented Cassava Dough)",
+    "Pepper Soup",
+    "Torborgee (Bitter Leaf Stew)",
+    "Kittely (Eggplant Stew)",
+    "Fried Plantains",
+    "Dry Rice with Gravy",
+    "Chop Bar Soup (Meat Soup)",
+    "Check Rice and Gravy",
+    "Attieke (Cassava Couscous)",
+    "Kala (Fried Dough Balls)"
+  ]
+},
+"Madagascar": {
+  "Top": [
+    "Romazava (Meat and Greens Stew)",
+    "Ravitoto (Crushed Cassava Leaves with Pork)",
+    "Lasary (Pickled Vegetables)",
+    "Akoho sy Voanio (Chicken with Coconut Sauce)",
+    "Koba (Banana and Peanut Cake)",
+    "Mofo Gasy (Malagasy Pancakes)",
+    "Hen'omby Ritra (Beef Stew)",
+    "Varenga (Shredded Meat)",
+    "Sakay (Spicy Chili Sauce)",
+    "Foza sy hena-kisoa (Crab and Pork Dish)",
+    "Tsaky (Street Snacks)",
+    "Mofo Anana (Fried Greens Fritters)",
+    "Kitoza (Dried and Grilled Meat)",
+    "Banana Fritters"
+  ]
+},
+
+"Comoros": {
+  "Top": [
+    "Langouste a la Vanille (Vanilla Lobster)",
+    "Mkatra Foutra (Fried Banana Fritters)",
+    "Shihou (Fish Stew)",
+    "Biryani",
+    "Mataba (Cassava Leaves Stew)",
+    "Pilao (Spiced Rice)",
+    "Langouste a la Sauce",
+    "Coconut Curry",
+    "Ndro (Breadfruit)",
+    "Mafé (Peanut Sauce)"
+  ]
+},
+"Congo": {
+  "Top": [
+    "Moambe Chicken (Chicken in Palm Nut Sauce)",
+    "Pondu (Cassava Leaves)",
+    "Saka Saka (Leafy Green Stew)",
+    "Liboké (Fish or Meat in Banana Leaves)",
+    "Fufu (Cassava Dough)",
+    "Kwanga (Cassava Bread)",
+    "Poulet à la Moambe",
+    "Madesu (Bean Stew)",
+    "Mikate (Fried Dough)",
+    "Mbika (Plantains)"
+  ]
+},
+"Cote d'Ivoire": {
+  "Top": [
+    "Attiéké (Cassava Couscous)",
+    "Alloco (Fried Plantains)",
+    "Kedjenou (Spicy Chicken Stew)",
+    "Fufu",
+    "Sauce Claire (Vegetable Sauce)",
+    "Placali (Cassava Porridge)",
+    "Garba (Tuna with Attiéké)",
+    "Koki (Steamed Black-eyed Peas Cake)",
+    "Gbofloto (Fried Dough)",
+    "Riz Gras (Rice with Sauce)"
+  ]
+},
+"Democratic Republic of Congo": {
+  "Top": [
+    "Poulet à la Moambe",
+    "Saka Saka (Cassava Leaves)",
+    "Liboké (Steamed Fish or Meat)",
+    "Fufu (Cassava Dough)",
+    "Madesu (Bean Stew)",
+    "Mikate (Fried Dough)",
+    "Moambe Chicken",
+    "Chikwangue (Cassava Bread)",
+    "Ndakala (Smoked Fish)",
+    "Pondu (Leaf Stew)"
+  ]
+},
+"Djibouti": {
+  "Top": [
+    "Skoudehkaris (Spiced Lamb Stew)",
+    "Fah-fah (Seafood Stew)",
+    "Bariis (Rice Dish)",
+    "Sambusa (Samosas)",
+    "Maraq (Meat Soup)",
+    "Laxoox (Flatbread)",
+    "Halwo (Sweet Dessert)",
+    "Anjero (Fermented Pancake)",
+    "Bajiyos (Fried Snacks)",
+    "Fah-fah (Spiced Meat Stew)"
+  ]
+},
+"Egypt": {
+  "Top": [
+    "Koshari (Rice, Lentils and Pasta)",
+    "Ful Medames (Fava Beans)",
+    "Taameya (Egyptian Falafel)",
+    "Molokhia (Jute Leaf Soup)",
+    "Mahshi (Stuffed Vegetables)",
+    "Fattah (Meat and Rice Dish)",
+    "Hawawshi (Stuffed Bread)",
+    "Kebabs",
+    "Shawarma",
+    "Basbousa (Semolina Cake)"
+  ]
+},
+"Equatorial Guinea": {
+  "Top": [
+    "Peanut Soup",
+    "Succotash",
+    "Fish Stew",
+    "Cassava Leaves",
+    "Grilled Fish",
+    "Plantains",
+    "Rice and Beans",
+    "Palm Nut Soup",
+    "Chicken with Peanut Sauce",
+    "Okra Stew"
+  ]
+},
+"Eritrea": {
+  "Top": [
+    "Zigni (Spicy Meat Stew)",
+    "Tsebhi (Various Stews)",
+    "Injera (Sourdough Flatbread)",
+    "Shiro (Chickpea Stew)",
+    "Kitcha (Flatbread)",
+    "Ga’at (Porridge)",
+    "Firfir (Injera with Stew)",
+    "Kitfo",
+    "Tihlo (Barley Dough Balls)",
+    "Beyaynetu (Mixed Platter)"
+  ]
+},
+"Eswatini (Swaziland)": {
+  "Top": [
+    "Sishwala (Traditional Stiff Porridge)",
+    "Sidvudvu (Pumpkin Meal)",
+    "Emasi (Sour Milk)",
+    "Incwancwa (Traditional Beer)",
+    "Umncweba (Meat Stew)",
+    "Tinkhobe (Boiled Corn)",
+    "Samp and Beans",
+    "Inhloko (Tripe)",
+    "Meat and Vegetable Stew",
+    "Chakalaka (Spicy Vegetable Relish)"
+  ]
+},
+"Ethiopia": {
+  "Top": [
+    "Injera (Sourdough Flatbread)",
+    "Doro Wat (Spicy Chicken Stew)",
+    "Tibs (Sautéed Meat)",
+    "Kitfo (Minced Raw Meat)",
+    "Shiro (Chickpea Stew)",
+    "Berbere (Spice Mix)",
+    "Gomen (Collard Greens)",
+    "Atakilt Wat (Vegetable Stew)",
+    "Chechebsa (Flatbread with Spices)",
+    "Tej (Honey Wine)"
+  ]
+},
+"Gabon": {
+  "Top": [
+    "Poulet Nyembwe (Chicken in Palm Nut Sauce)",
+    "Nyembwe (Palm Nut Sauce)",
+    "Brochettes (Grilled Meat Skewers)",
+    "Atanga (Bush Butter Fruit)",
+    "Fufu (Cassava Dough)",
+    "Okok (Leafy Green Stew)",
+    "Bitterleaf Soup",
+    "Chili Sauce",
+    "Cassava Leaves",
+    "Fish Stew"
+  ]
+},
+"Gambia": {
+  "Top": [
+    "Domoda (Peanut Stew)",
+    "Benachin (Jollof Rice)",
+    "Yassa (Marinated Meat or Fish)",
+    "Chere (Millet Porridge)",
+    "Superkanja (Leafy Greens Stew)",
+    "Plasas (Spinach Stew)",
+    "Fish and Rice",
+    "Fried Plantains",
+    "Grilled Fish",
+    "Pepper Sauce"
+  ]
+},
+"Ghana": {
+  "Top": [
+    "Jollof Rice",
+    "Fufu (Pounded Cassava or Yam)",
+    "Banku and Tilapia",
+    "Kelewele (Spicy Fried Plantains)",
+    "Waakye (Rice and Beans)",
+    "Groundnut Soup",
+    "Light Soup",
+    "Kenkey (Fermented Corn Dough)",
+    "Red Red (Bean Stew)",
+    "Kokonte (Cassava Flour Dish)"
+  ]
+},
+"Guinea": {
+  "Top": [
+    "Poulet Yassa (Chicken with Onion and Lemon)",
+    "Fufu (Pounded Cassava)",
+    "Jollof Rice",
+    "Sauce Gombo (Okra Sauce)",
+    "Mafé (Peanut Stew)",
+    "Dibi (Grilled Meat)",
+    "Fried Fish",
+    "Cassava Leaves",
+    "Rice and Beans",
+    "Bissap (Hibiscus Drink)"
+  ]
+},
+"Guinea-Bissau": {
+  "Top": [
+    "Caldo de Peixe (Fish Soup)",
+    "Jollof Rice",
+    "Chamuça (Samosa)",
+    "Mancarra (Cassava Porridge)",
+    "Grilled Fish",
+    "Palm Wine",
+    "Peanut Sauce",
+    "Bissap (Hibiscus Drink)",
+    "Fried Plantains",
+    "Cassava Leaves"
+  ]
+},
+"Kenya": {
+  "Top": [
+    "Ugali (Maize Porridge)",
+    "Nyama Choma (Grilled Meat)",
+    "Sukuma Wiki (Collard Greens)",
+    "Chapati",
+    "Samosa",
+    "Githeri (Maize and Beans)",
+    "Mandazi (Fried Doughnuts)",
+    "Matoke (Steamed Plantains)",
+    "Tilapia Fish",
+    "Irio (Mashed Peas and Potatoes)"
+  ]
+},
+"Lesotho": {
+  "Top": [
+    "Papa (Maize Porridge)",
+    "Motoho (Fermented Sorghum Porridge)",
+    "Chakalaka (Spicy Vegetable Relish)",
+    "Morogo (Wild Spinach)",
+    "Oxtail Stew",
+    "Sesotho Bread",
+    "Beans and Meat Stew",
+    "Potjiekos (Stew Cooked in a Pot)",
+    "Sorghum Beer",
+    "Boerewors (Sausage)"
+  ]
+},
+"Libya": {
+  "Top": [
+    "Bazeen (Dough Dish)",
+    "Couscous",
+    "Shorba (Soup)",
+    "Makarona (Pasta Dish)",
+    "Mbattan (Meat Stew)",
+    "Asida (Dough Porridge)",
+    "Ghuzi (Roast Lamb)",
+    "Imam Bayildi (Stuffed Eggplant)",
+    "Grilled Fish",
+    "Harissa (Chili Paste)",
+    "Stuffed Vegetables",
+    "Ful Medames (Fava Bean Stew)",
+    "Molokhia (Jute Leaf Soup)",
+    "Bazin (Barley Dough)"
+  ]
+
+},
+"Malawi": {
+  "Top": [
+    "Nsima (Maize Porridge)",
+    "Chambo (Grilled Fish)",
+    "Kachumbari (Tomato and Onion Salad)",
+    "Mandasi (Fried Doughnuts)",
+    "Mcherewa (Stewed Meat)",
+    "Beans Stew",
+    "Pumpkin Leaves Stew",
+    "Potato Curry",
+    "Vegetable Soup",
+    "Chicken Curry"
+  ]
+},
+"Mali": {
+  "Top": [
+    "Tiguadege Na (Peanut Stew)",
+    "Jollof Rice",
+    "Fufu (Pounded Cassava or Yam)",
+    "Dibi (Grilled Meat)",
+    "Poulet Yassa (Marinated Chicken)",
+    "Maafe (Peanut Sauce Stew)",
+    "Maffe (Groundnut Stew)",
+    "Fried Fish",
+    "Bougouni (Vegetable Stew)",
+    "Dokana (Grilled Lamb)"
+  ]
+},
+"Mauritania": {
+  "Top": [
+    "Thieboudienne (Fish and Rice)",
+    "Méchoui (Roast Lamb)",
+    "Couscous",
+    "Lakh (Millet Porridge)",
+    "Maru (Meat and Vegetable Stew)",
+    "Mrouzia (Sweet Meat Tagine)",
+    "Harira (Soup with Lentils and Chickpeas)",
+    "Yassa (Marinated Meat or Fish)",
+    "Fataya (Fried Pastry)",
+    "Mint Tea"
+  ]
+},
+"Mauritius": {
+  "Top": [
+    "Dholl Puri (Split Pea Flatbread)",
+    "Biryani",
+    "Rougaille (Tomato-based Creole Sauce)",
+    "Gateau Piment (Chili Cakes)",
+    "Mine Frite (Fried Noodles)",
+    "Fish Vindaye (Pickled Fish)",
+    "Bol Renverse (Mauritian Stir-fry)",
+    "Farata (Mauritian Roti)",
+    "Octopus Curry",
+    "Alouda (Milk-based Drink)"
+  ]
+},
+"Mayotte": {
+  "Top": [
+    "Langouste (Lobster)",
+    "M'tsolola (Fish in Banana Leaves)",
+    "Mataba (Cassava Leaves Stew)",
+    "Coco Chicken",
+    "Rice with Fish Sauce",
+    "Fried Plantains",
+    "Banana Fritters",
+    "Grilled Fish",
+    "Palm Wine",
+    "Spiced Rice"
+  ]
+},
+"Morocco": {
+  "Top": [
+    "Couscous",
+    "Tagine",
+    "Pastilla",
+    "Harira (Soup)",
+    "Rfissa",
+    "Bastilla",
+    "Mechoui (Roast Lamb)",
+    "Zaalouk (Eggplant Salad)",
+    "Tanjia",
+    "Mint Tea"
+  ]
+},
+"Mozambique": {
+  "Top": [
+    "Piri Piri Chicken",
+    "Matapa (Cassava Leaves with Peanut Sauce)",
+    "Xima (Cornmeal Porridge)",
+    "Caril de Camarão (Shrimp Curry)",
+    "Feijoada (Bean Stew)",
+    "Chambo (Grilled Fish)",
+    "Caldeirada (Fish Stew)",
+    "Muamba de Galinha (Chicken Stew)",
+    "Bolinhos de Peixe (Fish Cakes)",
+    "Katembe (Peanut Butter Soup)"
+  ]
+},
+"Namibia": {
+  "Top": [
+    "Kapana (Grilled Meat)",
+    "Potjiekos (Slow-cooked Stew)",
+    "Oshifima (Millet Porridge)",
+    "Mahangu (Pearl Millet)",
+    "Mopane Worms",
+    "Biltong (Dried Meat)",
+    "Braai (Barbecue)",
+    "Vetkoek (Fried Bread)",
+    "Onganyonga (Wild Spinach)",
+    "Boerewors (Farmers Sausage)"
+  ]
+},
+"Niger": {
+  "Top": [
+    "Djerma (Rice and Meat Dish)",
+    "Fufu (Pounded Cassava or Yam)",
+    "Jollof Rice",
+    "Masa (Rice Cake)",
+    "Sauce Gombo (Okra Sauce)",
+    "Doro (Chicken Stew)",
+    "Tô (Millet or Sorghum Dough)",
+    "Kossam (Goat Meat Stew)",
+    "Fried Fish",
+    "Salad Nigerienne"
+  ]
+},
+"Nigeria": {
+  "Top": [
+    "Jollof Rice",
+    "Pounded Yam",
+    "Egusi Soup (Melon Seed Soup)",
+    "Suya (Spicy Grilled Meat)",
+    "Efo Riro (Spinach Stew)",
+    "Afang Soup",
+    "Pepper Soup",
+    "Fufu (Cassava or Yam Dough)",
+    "Moi Moi (Steamed Bean Cake)",
+    "Bitterleaf Soup"
+  ]
+},
+"Réunion": {
+  "Top": [
+    "Cari (Creole Curry)",
+    "Rougail (Tomato Sauce)",
+    "Samoussas (Samosas)",
+    "Bouchons (Dim Sum-style Dumplings)",
+    "Gratinée (Cheese Gratin)",
+    "Boucané (Smoked Meat)",
+    "Achard (Pickled Vegetables)",
+    "Ti'jacques (Breadfruit Curry)",
+    "Gâteau Patate (Sweet Potato Cake)",
+    "Bonbon Coco (Coconut Candy)"
+  ]
+},
+"Rwanda": {
+  "Top": [
+    "Isombe (Cassava Leaves with Peanut Sauce)",
+    "Ugali (Maize Porridge)",
+    "Ibihaza (Pumpkin with Beans)",
+    "Brochettes (Grilled Meat Skewers)",
+    "Akabenz (Fried Pork)",
+    "Sambaza (Fried Fish)",
+    "Ibihaza (Pumpkin Stew)",
+    "Amateke (Traditional Beer)",
+    "Ibinyomoro (Banana Wine)",
+    "Mukeke (Lake Fish)"
+  ]
+},
+"Saint Helena": {
+  "Top": [
+    "Plo (Rice Dish)",
+    "Fish Cakes",
+    "Pepperpot (Stew)",
+    "Coconut Bread",
+    "Tungi Juice",
+    "Seafood Stew",
+    "Cassava Cake",
+    "Bammy (Cassava Flatbread)",
+    "Potato Bread",
+    "Pumpkin Stew"
+  ]
+},
+"São Tomé and Príncipe": {
+  "Top": [
+    "Calulu (Fish Stew)",
+    "Feijoada (Bean Stew)",
+    "Moqueca (Fish Stew)",
+    "Cachupa (Corn and Bean Stew)",
+    "Arroz Doce (Sweet Rice)",
+    "Bolinhos de Peixe (Fish Cakes)",
+    "Palm Wine",
+    "Mango Juice",
+    "Kissanga (Local Sauce)",
+    "Grilled Lobster"
+  ]
+},
+"Senegal": {
+  "Top": [
+    "Thieboudienne (Fish and Rice)",
+    "Yassa (Marinated Meat or Fish)",
+    "Mafé (Peanut Stew)",
+    "Ndambé (Black-eyed Peas Stew)",
+    "Poulet Yassa (Chicken with Onion and Lemon)",
+    "Ceebu Jen (Wolof Rice Dish)",
+    "Pastels (Fried Pastry)",
+    "Maafe (Groundnut Stew)",
+    "Lakh (Millet Porridge)",
+    "Bissap (Hibiscus Drink)"
+  ]
+},
+"Seychelles": {
+  "Top": [
+    "Grilled Fish",
+    "Octopus Curry",
+    "Shark Chutney",
+    "Ladob (Sweet Plantain and Tapioca)",
+    "Coconut Curry",
+    "Fish Curry",
+    "Breadfruit Chips",
+    "Creole Chicken",
+    "Pumpkin Curry",
+    "Fruit Salad"
+  ]
+},
+"Sierra Leone": {
+  "Top": [
+    "Groundnut Soup",
+    "Jollof Rice",
+    "Cassava Leaf Stew",
+    "Fufu (Pounded Cassava or Yam)",
+    "Palm Butter Soup",
+    "Pepper Soup",
+    "Rice and Beans",
+    "Fried Plantains",
+    "Kus Kus (Couscous)",
+    "Bitterleaf Soup"
+  ]
+},
+"Somalia": {
+  "Top": [
+    "Canjeero (Flatbread)",
+    "Bariis Iskukaris (Spiced Rice)",
+    "Sambusa (Samosa)",
+    "Suqaar (Diced Meat)",
+    "Muufo (Cornbread)",
+    "Halwa (Sweet Dessert)",
+    "Anjero (Pancake)",
+    "Bariis (Rice Dish)",
+    "Maraq (Stew)",
+    "Baasto (Pasta)"
+  ]
+},
+"South Africa": {
+  "Top": [
+    "Bobotie (Curried Meat Pie)",
+    "Biltong (Dried Meat)",
+    "Bunny Chow (Bread Bowl with Curry)",
+    "Boerewors (Farmers Sausage)",
+    "Chakalaka (Spicy Vegetable Relish)",
+    "Potjiekos (Stew Cooked in a Pot)",
+    "Malva Pudding",
+    "Sosaties (Meat Skewers)",
+    "Vetkoek (Fried Bread)",
+    "Pap (Maize Porridge)"
+  ]
+},
+"South Sudan": {
+  "Top": [
+    "Ful Medames (Fava Bean Stew)",
+    "Kisra (Fermented Flatbread)",
+    "Aseeda (Porridge)",
+    "Mandazi (Fried Doughnuts)",
+    "Molokhia (Jute Leaf Soup)",
+    "Nyama Choma (Grilled Meat)",
+    "Taguella (Flatbread)",
+    "Kawal (Fermented Leaves)",
+    "Cholent",
+    "Gatluak (Sorrel Stew)"
+  ]
+},
+"Sudan": {
+  "Top": [
+    "Ful Medames (Fava Bean Stew)",
+    "Kisra (Fermented Flatbread)",
+    "Tagine",
+    "Goraasa (Flatbread)",
+    "Asida (Dough Porridge)",
+    "Shahan Ful",
+    "Mullah (Stew)",
+    "Kofta",
+    "Shorba (Soup)",
+    "Aseeda (Porridge)"
+  ]
+},
+"United Republic of Tanzania": {
+  "Top": [
+    "Ugali (Maize Porridge)",
+    "Nyama Choma (Grilled Meat)",
+    "Samaki (Fish)",
+    "Chipsi Mayai (Egg and Chips)",
+    "Sukumawiki (Collard Greens)",
+    "Mshikaki (Meat Skewers)",
+    "Pilau (Spiced Rice)",
+    "Wali wa Nazi (Coconut Rice)",
+    "Maharagwe (Bean Stew)",
+    "Madafu (Coconut Water)"
+  ]
+},
+"Togo": {
+  "Top": [
+    "Fufu (Pounded Cassava or Yam)",
+    "Akple (Corn Dough)",
+    "Koklo Meme (Grilled Chicken)",
+    "Ablo (Steamed Rice Cake)",
+    "Kokonte (Cassava Flour Dish)",
+    "Gboma Dessi (Spinach Stew)",
+    "Yam Porridge",
+    "Pepper Sauce",
+    "Pâte (Maize Dough)",
+    "Agouti (Grasscutter Meat)"
+  ]
+},
+"Tunisia": {
+  "Top": [
+    "Couscous",
+    "Brik (Stuffed Pastry)",
+    "Lablabi (Chickpea Soup)",
+    "Ojja (Spicy Sausage and Egg Stew)",
+    "Mechouia Salad",
+    "Tajine (Tunisian Casserole)",
+    "Kafteji (Fried Vegetable Mix)",
+    "Makroudh (Date-filled Pastry)",
+    "Grilled Fish",
+    "Harissa (Chili Paste)"
+  ]
+},
+"Uganda": {
+  "Top": [
+    "Matoke (Steamed Plantains)",
+    "Luwombo (Steamed Meat in Banana Leaves)",
+    "Posho (Maize Porridge)",
+    "Nsenene (Fried Grasshoppers)",
+    "Rolex (Chapati with Egg)",
+    "Groundnut Sauce",
+    "Malakwang (Leafy Green Stew)",
+    "Eshabwe (Ghee Sauce)",
+    "Kikomando (Beans and Chapati)",
+    "Beef Stew"
+  ]
+},
+"Zambia": {
+  "Top": [
+    "Nshima (Maize Porridge)",
+    "Ifisashi (Vegetable Stew)",
+    "Chikanda (African Polony)",
+    "Kapenta (Dried Fish)",
+    "Vinyungo (Beans)",
+    "Zambezi Bream (Fish)",
+    "Fried Meat",
+    "Beans and Greens",
+    "Cassava",
+    "Sweet Potato"
+  ]
+},
+"Zimbabwe": {
+  "Top": [
+    "Sadza (Maize Porridge)",
+    "Nyama (Grilled Meat)",
+    "Muriwo Unedovi (Vegetables with Peanut Butter)",
+    "Mapopo (Papaya)",
+    "Dovi (Peanut Butter Stew)",
+    "Kapenta (Small Dried Fish)",
+    "Chikenduza (Grilled Corn)",
+    "Bota (Maize Porridge)",
+    "Mabhanzi (Wild Spinach)",
+    "Fried Fish"
+  ]
+},
+"Argentina": {
+  "Top": [
+    "Asado (Argentine Barbecue)",
+    "Empanadas",
+    "Choripán (Chorizo Sandwich)",
+    "Milanesa (Breaded Meat Cutlet)",
+    "Dulce de Leche",
+    "Provoleta (Grilled Cheese)",
+    "Alfajores (Cookies with Dulce de Leche)",
+    "Locro (Stew)",
+    "Humita (Corn Pudding)",
+    "Matambre (Stuffed Meat Roll)"
+  ]
+},
+"Bolivia": {
+  "Top": [
+    "Salteñas (Meat-filled Pastries)",
+    "Pique Macho (Spicy Meat and Fries)",
+    "Api (Hot Corn Drink)",
+    "Silpancho (Breaded Meat with Rice and Potatoes)",
+    "Chairo (Soup with Meat and Vegetables)",
+    "Charquekan (Dried Meat Dish)",
+    "Majadito (Rice with Meat)",
+    "Mondongo (Tripe Soup)",
+    "Llajua (Spicy Sauce)",
+    "Tamales"
+  ]
+},
+"Brazil": {
+  "Top": [
+    "Feijoada (Black Bean Stew)",
+    "Churrasco (Brazilian Barbecue)",
+    "Pão de Queijo (Cheese Bread)",
+    "Brigadeiro (Chocolate Truffle)",
+    "Moqueca (Fish Stew)",
+    "Coxinha (Chicken Croquettes)",
+    "Farofa (Toasted Cassava Flour)",
+    "Acarajé (Black-eyed Pea Fritters)",
+    "Vatapá (Seafood Stew)",
+    "Tapioca (Cassava Pancake)"
+  ]
+},
+"Chile": {
+  "Top": [
+    "Pastel de Choclo (Corn Pie)",
+    "Empanadas",
+    "Cazuela (Stew)",
+    "Curanto (Seafood and Meat Feast)",
+    "Pebre (Chili Sauce)",
+    "Completo (Hot Dog with Toppings)",
+    "Charquicán (Meat and Vegetable Stew)",
+    "Sopaipillas (Fried Dough)",
+    "Lomo a lo Pobre (Beef with Eggs)",
+    "Mote con Huesillo (Wheat and Peach Drink)"
+  ]
+},
+"Colombia": {
+  "Top": [
+    "Arepas (Corn Cakes)",
+    "Bandeja Paisa (Mixed Platter)",
+    "Empanadas",
+    "Ajiaco (Chicken and Potato Soup)",
+    "Sancocho (Stew)",
+    "Tamales",
+    "Lechona (Stuffed Pig)",
+    "Pandebono (Cheese Bread)",
+    "Buñuelos (Fried Dough Balls)",
+    "Changua (Milk Soup)"
+  ]
+},
+"Ecuador": {
+  "Top": [
+    "Ceviche",
+    "Hornado (Roast Pork)",
+    "Llapingachos (Potato Patties)",
+    "Fanesca (Soup with Beans and Fish)",
+    "Seco de Chivo (Goat Stew)",
+    "Encebollado (Fish Soup)",
+    "Empanadas",
+    "Arroz con Menestra (Rice with Lentils)",
+    "Patacones (Fried Plantains)",
+    "Mote con Huesillo (Wheat and Peach Drink)"
+  ]
+},
+"Guyana": {
+  "Top": [
+    "Pepperpot (Spicy Stew)",
+    "Cook-up Rice",
+    "Doubles (Curried Chickpea Sandwich)",
+    "Metemgee (Vegetable Stew)",
+    "Cassava Bread",
+    "Pholourie (Fried Dough Balls)",
+    "Black Pudding",
+    "Salted Fish",
+    "Roti",
+    "Fried Plantains"
+  ]
+},
+"Paraguay": {
+  "Top": [
+    "Sopa Paraguaya (Cornbread)",
+    "Chipa (Cheese Bread)",
+    "Mbeju (Starch Cake)",
+    "Asado (Barbecue)",
+    "Pira Caldo (Fish Soup)",
+    "Bori Bori (Corn Dumpling Soup)",
+    "Pira Caldo (Fish Soup)",
+    "Patiño (Corn Meal Cake)",
+    "Dulce de Leche",
+    "Tereré (Cold Herb Tea)"
+  ]
+},
+"Peru": {
+  "Top": [
+    "Ceviche",
+    "Lomo Saltado (Stir-fried Beef)",
+    "Aji de Gallina (Spicy Chicken)",
+    "Anticuchos (Grilled Meat Skewers)",
+    "Papa a la Huancaína (Potatoes with Cheese Sauce)",
+    "Pollo a la Brasa (Rotisserie Chicken)",
+    "Causa Rellena (Potato Dish)",
+    "Arroz con Pollo (Chicken with Rice)",
+    "Tacu Tacu (Rice and Beans)",
+    "Suspiro a la Limeña (Dessert)"
+  ]
+},
+"Suriname": {
+  "Top": [
+    "Pom (Baked Root Vegetable Dish)",
+    "Roti",
+    "Moksi Meti (Mixed Meat Dish)",
+    "Bami (Noodles)",
+    "Nasi Goreng (Fried Rice)",
+    "Saoto Soup",
+    "Kip Kip (Fried Chicken)",
+    "Bakabana (Fried Plantains)",
+    "Peperpot (Stew)",
+    "Fried Fish"
+  ]
+},
+"Uruguay": {
+  "Top": [
+    "Asado (Barbecue)",
+    "Chivito (Sandwich)",
+    "Milanesa (Breaded Meat Cutlet)",
+    "Empanadas",
+    "Chorizo",
+    "Dulce de Leche",
+    "Parrillada (Mixed Grill)",
+    "Tortas Fritas (Fried Pastries)",
+    "Puchero (Stew)",
+    "Bizcochos (Cookies)"
+  ]
+},
+"Venezuela": {
+  "Top": [
+    "Arepas (Corn Cakes)",
+    "Pabellón Criollo (Shredded Beef with Rice and Beans)",
+    "Hallacas (Cornmeal Dish)",
+    "Cachapa (Corn Pancake)",
+    "Empanadas",
+    "Tequeños (Cheese Sticks)",
+    "Camarones en Salsa (Shrimp in Sauce)",
+    "Asado Negro (Blackened Beef)",
+    "Perico (Scrambled Eggs with Vegetables)",
+    "Polvorosa (Chicken Pie)"
+  ]
+},
+
+  "United States": {
+    "Top": [
+      "Hamburger",
+      "Hot Dog",
+      "Barbecue Ribs",
+      "Apple Pie",
+      "Clam Chowder",
+      "Buffalo Wings",
+      "Mac and Cheese",
+      "Cheesecake",
+      "Jambalaya",
+      "Pancakes"
+    ]
+  },
+  "Mexico": {
+    "Top": [
+      "Tacos",
+      "Enchiladas",
+      "Guacamole",
+      "Chiles en Nogada",
+      "Pozole",
+      "Tamales",
+      "Mole",
+      "Quesadillas",
+      "Carnitas",
+      "Churros"
+    ]
+  },
+  "Canada": {
+    "Top": [
+      "Poutine",
+      "Butter Tarts",
+      "Nanaimo Bars",
+      "Tourtière",
+      "Caesar Cocktail",
+      "Maple Syrup",
+      "Peameal Bacon",
+      "Montreal Smoked Meat",
+      "Beavertails",
+      "Ketchup Chips"
+    ]
+  },
+  "Guatemala": {
+    "Top": [
+      "Pepian",
+      "Kak'ik",
+      "Tamales",
+      "Jocon",
+      "Chiles Rellenos",
+      "Fiambre",
+      "Kak'ik",
+      "Tostadas",
+      "Atol de Elote",
+      "Hilachas"
+    ]
+  },
+  "Haiti": {
+    "Top": [
+      "Griot (Fried Pork)",
+      "Soup Joumou (Pumpkin Soup)",
+      "Diri ak Pwa (Rice and Beans)",
+      "Tassot (Fried Beef)",
+      "Pikliz (Spicy Pickled Vegetables)",
+      "Pate Kòde (Haitian Empanadas)",
+      "Accra (Malanga Fritters)",
+      "Lambi (Conch)",
+      "Legim (Vegetable Stew)",
+      "Tonmtonm (Breadfruit and Saltfish)"
+    ]
+  },
+  "Dominican Republic": {
+    "Top": [
+      "Mangu (Mashed Plantains)",
+      "Sancocho (Stew)",
+      "La Bandera (Rice, Beans, Meat)",
+      "Moro de Guandules (Rice and Pigeon Peas)",
+      "Chimichurris (Dominican Burger)",
+      "Pastelón (Plantain Lasagna)",
+      "Habichuelas Guisadas (Beans Stew)",
+      "Tostones (Fried Plantains)",
+      "Pollo Guisado (Stewed Chicken)",
+      "Dulce de Leche"
+    ]
+  },
+  "Honduras": {
+    "Top": [
+      "Baleadas",
+      "Sopa de Caracol (Conch Soup)",
+      "Tamales",
+      "Yuca con Chicharrón",
+      "Pollo con Tajadas (Chicken with Fried Plantains)",
+      "Carne Asada",
+      "Enchiladas",
+      "Pupusas",
+      "Pastelitos",
+      "Rosquillas"
+    ]
+  },
+  "Cuba": {
+    "Top": [
+      "Ropa Vieja (Shredded Beef)",
+      "Lechón Asado (Roast Pork)",
+      "Moros y Cristianos (Black Beans and Rice)",
+      "Picadillo (Ground Beef Hash)",
+      "Tostones (Fried Plantains)",
+      "Yuca con Mojo (Cassava with Garlic Sauce)",
+      "Vaca Frita (Fried Beef)",
+      "Cuban Sandwich",
+      "Arroz con Pollo (Chicken with Rice)",
+      "Flan"
+    ]
+  },
+  "Nicaragua": {
+    "Top": [
+      "Gallo Pinto (Rice and Beans)",
+      "Nacatamales (Nicaraguan Tamales)",
+      "Vigorón (Yuca with Pork Skin)",
+      "Quesillo (Cheese with Cream)",
+      "Indio Viejo (Beef Stew)",
+      "Baho (Meat, Plantains, and Yuca)",
+      "Vaho",
+      "Rosquillas",
+      "Tres Leches Cake",
+      "Ceviche"
+    ]
+  },
+  "El Salvador": {
+    "Top": [
+      "Pupusas",
+      "Yuca Frita (Fried Cassava)",
+      "Pan con Pollo (Chicken Sandwich)",
+      "Sopa de Pata (Cow's Feet Soup)",
+      "Tamales",
+      "Empanadas",
+      "Atol de Elote (Corn Drink)",
+      "Enchiladas",
+      "Quesadilla Salvadorena",
+      "Mariscada (Seafood Stew)"
+    ]
+  },
+  "Costa Rica": {
+    "Top": [
+      "Gallo Pinto (Rice and Beans)",
+      "Casado (Plate with Rice, Beans, Meat)",
+      "Ceviche",
+      "Tamales",
+      "Arroz con Pollo (Chicken with Rice)",
+      "Olla de Carne (Beef Stew)",
+      "Chifrijo (Bean and Pork Dish)",
+      "Patacones (Fried Plantains)",
+      "Empanadas",
+      "Tres Leches Cake"
+    ]
+  },
+  "Panama": {
+    "Top": [
+      "Sancocho (Chicken Soup)",
+      "Ceviche",
+      "Tamales",
+      "Arroz con Pollo",
+      "Carimañola (Stuffed Yuca Fritters)",
+      "Ropa Vieja",
+      "Patacones",
+      "Empanadas",
+      "Chicheme (Corn Drink)",
+      "Frito de Pescado (Fried Fish)"
+    ]
+  },
+  "Puerto Rico": {
+    "Top": [
+      "Mofongo (Mashed Plantains)",
+      "Arroz con Gandules (Rice with Pigeon Peas)",
+      "Lechón Asado (Roast Pork)",
+      "Pasteles",
+      "Tostones (Fried Plantains)",
+      "Asopao (Soup)",
+      "Pollo Guisado (Stewed Chicken)",
+      "Alcapurrias (Stuffed Fritters)",
+      "Tembleque (Coconut Pudding)",
+      "Flan"
+    ]
+  },
+  "Jamaica": {
+    "Top": [
+      "Jerk Chicken",
+      "Ackee and Saltfish",
+      "Curry Goat",
+      "Rice and Peas",
+      "Festival (Fried Dumplings)",
+      "Patties",
+      "Callaloo",
+      "Escovitch Fish",
+      "Pepper Pot Soup",
+      "Rum Cake"
+    ]
+  },
+  "Trinidad and Tobago": {
+    "Top": [
+      "Doubles (Curried Chickpea Sandwich)",
+      "Callaloo",
+      "Pelau (Rice Dish)",
+      "Bake and Shark",
+      "Roti",
+      "Pholourie (Fried Dough Balls)",
+      "Aloo Pie",
+      "Curry Crab and Dumplings",
+      "Corn Soup",
+      "Black Cake"
+    ]
+  },
+  "Belize": {
+    "Top": [
+      "Rice and Beans",
+      "Fry Jacks (Fried Dough)",
+      "Stew Chicken",
+      "Tamales",
+      "Hudut (Fish Soup)",
+      "Ceviche",
+      "Johnny Cakes",
+      "Conch Fritters",
+      "Escabeche (Pickled Fish)",
+      "Bammy (Cassava Bread)"
+    ]
+  },
+  "Bahamas": {
+    "Top": [
+      "Cracked Conch",
+      "Conch Salad",
+      "Rock Lobster",
+      "Peas and Rice",
+      "Johnny Cake",
+      "Souse (Pickled Pork)",
+      "Goat Meat Stew",
+      "Bahamian Stew Fish",
+      "Guava Duff",
+      "Rum Cake"
+    ]
+  },
+  "Guadeloupe": {
+    "Top": [
+      "Colombo (Curry)",
+      "Blaff (Fish Soup)",
+      "Accras (Fritters)",
+      "Boudin (Blood Sausage)",
+      "Ti Punch (Rum Cocktail)",
+      "Grilled Fish",
+      "Plantains",
+      "Féroce d'Avocat (Spicy Avocado Dip)",
+      "Poulet Boucané (Smoked Chicken)",
+      "Sorbet Coco (Coconut Sorbet)"
+    ]
+  },
+  "Martinique": {
+    "Top": [
+      "Colombo (Curry)",
+      "Accras (Salted Cod Fritters)",
+      "Boudin (Blood Sausage)",
+      "Blaff (Fish Stew)",
+      "Ti Punch (Rum Cocktail)",
+      "Grilled Fish",
+      "Plantains",
+      "Poulet Boucané (Smoked Chicken)",
+      "Blanc-Manger (Coconut Pudding)",
+      "Sorbet Coco (Coconut Sorbet)"
+    ]
+  },
+  "Barbados": {
+    "Top": [
+      "Flying Fish and Cou-Cou",
+      "Macaroni Pie",
+      "Pepperpot (Stew)",
+      "Pudding and Souse",
+      "Fish Cakes",
+      "Conkies (Cornmeal Treat)",
+      "Bajan Black Cake",
+      "Cutters (Sandwiches)",
+      "Rice and Peas",
+      "Fried Plantains"
+    ]
+  
+},
+"Australia": {
+  "Top": [
+    "Meat Pie",
+    "Vegemite on Toast",
+    "Lamingtons",
+    "Pavlova",
+    "Fairy Bread",
+    "Barramundi",
+    "Damper (Traditional Bread)",
+    "Anzac Biscuits",
+    "Sausage Rolls",
+    "Tim Tams"
+  ]
+}
+
+
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

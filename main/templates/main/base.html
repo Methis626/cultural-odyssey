@@ -1,0 +1,143 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{% block title %}Cultural Odyssey{% endblock %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="{% static 'main/style.css' %}">
+  <link rel="stylesheet" href="{% static 'main/calendar.css' %}">
+  <link rel="stylesheet" href="{% static 'css/about_us.css' %}">
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  {% include 'main/header.html' %}
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  {% include 'main/footer.html' %}
+
+  {% block scripts %}
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <script src="{% static 'main/calendar.js' %}" defer></script>
+    <script src="{% static 'main/main.js' %}" defer></script>
+  {% endblock %}
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleBtn = document.getElementById("theme-toggle");
+      const currentTheme = localStorage.getItem("theme");
+      if (currentTheme === "dark") {
+        document.body.classList.add("dark-mode");
+      }
+      toggleBtn?.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+        localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
+      });
+
+      document.querySelectorAll('.toggle-button').forEach(button => {
+        button.addEventListener('click', () => {
+          button.classList.toggle('active');
+          const content = button.nextElementSibling;
+          content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        });
+      });
+
+      const tabs = document.querySelectorAll('.tab-btn');
+      const contents = document.querySelectorAll('.tab-content');
+      if (tabs.length > 0 && contents.length > 0) {
+        tabs[0].classList.add('active');
+        contents[0].style.display = 'block';
+      }
+      tabs.forEach(btn => {
+        btn.addEventListener('click', () => {
+          tabs.forEach(b => b.classList.remove('active'));
+          contents.forEach(c => c.style.display = 'none');
+          btn.classList.add('active');
+          const target = document.getElementById(btn.dataset.target);
+          if (target) target.style.display = 'block';
+          if (btn.dataset.target === 'calendar-tab') {
+            window.dispatchEvent(new Event("calendarReload"));
+          }
+        });
+      });
+    });
+  </script>
+
+  <script>
+document.getElementById("famous-foods-btn").addEventListener("click", () => {
+    const country = document.getElementById("location-line").innerText.trim();
+    fetch(`/get_food_info/?country=${country}`)
+        .then(response => response.json())
+        .then(data => {
+            const foodList = data.foods.map(food => `<li>${food}</li>`).join("");
+            document.querySelector(".famous-foods-list").innerHTML = foodList || "<li>Yemek bulunamadı.</li>";
+        });
+});
+</script>
+
+
+
+<script>
+const loginForm = document.querySelector(".sign-in-container form");
+
+if (loginForm) {
+  loginForm.addEventListener("submit", function(e) {
+    setTimeout(() => {
+      window.location.reload(); // Giriş yaptıktan sonra sayfa yenilensin
+    }, 500);
+  });
+}
+
+</script>
+
+
+<script>
+  const loginBtn = document.getElementById("login-btn");
+const signupBtn = document.getElementById("signup-btn");
+const toSignup = document.getElementById("toSignup");
+const toLogin = document.getElementById("toLogin");
+
+if (loginBtn && signupBtn && toSignup && toLogin) {
+  loginBtn.addEventListener("click", () => {
+    document.getElementById("authModal").classList.remove("hidden");
+    document.querySelector(".sign-in-container").style.display = "block";
+    document.querySelector(".sign-up-container").style.display = "none";
+  });
+
+  signupBtn.addEventListener("click", () => {
+    document.getElementById("authModal").classList.remove("hidden");
+    document.querySelector(".sign-in-container").style.display = "none";
+    document.querySelector(".sign-up-container").style.display = "block";
+  });
+
+  toSignup.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.querySelector(".sign-in-container").style.display = "none";
+    document.querySelector(".sign-up-container").style.display = "block";
+  });
+
+  toLogin.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.querySelector(".sign-up-container").style.display = "none";
+    document.querySelector(".sign-in-container").style.display = "block";
+  });
+}
+
+</script>
+
+
+
+
+</body>
+</html>
+

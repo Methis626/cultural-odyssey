@@ -1,0 +1,56 @@
+{
+  "TR": [
+    {
+      "title": "Nevruz",
+      "description": "Baharın gelişinin kutlandığı, ateşten atlanılan geleneksel Türk bayramıdır."
+    },
+    {
+      "title": "Hıdırellez",
+      "description": "6 Mayıs'ta kutlanan, dileklerin tutulup baharın gelişinin kutlandığı gündür."
+    },
+    {
+      "title": "Kına Gecesi",
+      "description": "Düğünden bir gün önce gelin için yapılan, duygusal ve eğlenceli gece."
+    }
+  ],
+  "FR": [
+    {
+      "title": "Bastille Günü",
+      "description": "Fransa'nın ulusal bayramı, 14 Temmuz'da askeri geçit törenleri ve havai fişeklerle kutlanır."
+    },
+    {
+      "title": "Noël",
+      "description": "Fransa’da Noel kutlamaları aile yemekleri, hediyeler ve süslemelerle gerçekleşir."
+    }
+  ],
+  "JP": [
+    {
+      "title": "Hanami",
+      "description": "Kiraz çiçeklerinin açtığı dönemde parklarda yapılan çiçek izleme piknikleri."
+    },
+    {
+      "title": "Obon Festivali",
+      "description": "Ataların ruhlarının anıldığı, danslar ve fenerlerle kutlanan yaz festivali."
+    }
+  ],
+  "IT": [
+    {
+      "title": "Ferragosto",
+      "description": "15 Ağustos’ta yazın ortasında kutlanan, tatile çıkılan ulusal gündür."
+    },
+    {
+      "title": "Carnevale",
+      "description": "Rengarenk maskelerle ve geçitlerle ünlü geleneksel festival."
+    }
+  ],
+  "US": [
+    {
+      "title": "Thanksgiving",
+      "description": "Kasım ayında kutlanan, ailelerin hindi yediği, şükran günü."
+    },
+    {
+      "title": "Independence Day",
+      "description": "4 Temmuz'da havai fişek gösterileriyle Amerika'nın bağımsızlığı kutlanır."
+    }
+  ]
+}

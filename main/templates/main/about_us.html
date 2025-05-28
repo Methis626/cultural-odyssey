@@ -1,0 +1,120 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}About Us | Cultural Odyssey{% endblock %}
+
+{% block content %}
+<div class="about-container">
+    <div class="about-header">
+        <h1>About Cultural Odyssey</h1>
+        <p>Your Gateway to Global Cultures</p>
+    </div>
+
+    <section class="about-content">
+        <h2> Our Vision</h2>
+        <p>
+            At Cultural Odyssey, our vision is to bridge the gap between cultures by offering detailed insights into the rich traditions, cuisine, geography, and heritage of countries around the world. We believe understanding diverse cultures fosters unity and enriches lives.
+        </p>
+        <h2> Our Mission</h2>
+        <p>
+            We aim to create an engaging, interactive platform that allows users to explore global diversity with ease. Cultural Odyssey leverages cutting-edge technologies to present information dynamically and intuitively, providing an enjoyable exploration experience.
+        </p>
+    </section>
+
+    <section class="features-section">
+        <h2>Main Features of Cultural Odyssey</h2>
+        <div class="features-container">
+            <!-- Kutucuk 1: Interactive Map -->
+            <div class="feature-box">
+                <div class="feature-image-placeholder">
+                    <img src="{% static 'images/mapp.png' %}" alt="Interactive Map">
+                </div>
+                <h3>Interactive Map</h3>
+                <p>
+                    Instantly access the world map, zoom into countries, and click to select any country or city you wish to explore!
+                </p>
+            </div>
+            <!-- Kutucuk 2: Region Info -->
+            <div class="feature-box">
+                <div class="feature-image-placeholder">
+                    <img src="{% static 'images/region.png' %}" alt="Interactive Map">
+                </div>
+                <h3>Region Info</h3>
+                <p>
+                    See region, subregion, and bordering countries for every location you select. Understand a country's geographical context and neighbors.
+                </p>
+            </div>
+            <!-- Kutucuk 3: General Info -->
+            <div class="feature-box">
+                <div class="feature-image-placeholder">
+                    <img src="{% static 'images/general.png' %}" alt="Interactive Map">
+                </div>
+                <h3>General Info</h3>
+                <p>
+                    Instantly view key details like capital, currency, official language, and population for any country or city.
+                </p>
+            </div>
+            <!-- Kutucuk 4: Weather & Time -->
+            <div class="feature-box">
+                <div class="feature-image-placeholder">
+                    <img src="{% static 'images/weatt.png' %}" alt="Interactive Map">
+                </div>
+                <h3>Weather & Time</h3>
+                <p>
+                    See real-time weather conditions and local time for every selected country and city on the map.
+                </p>
+            </div>
+            <!-- Kutucuk 5: Chatbot -->
+            <div class="feature-box">
+                <div class="feature-image-placeholder">
+                     <img src="{% static 'images/chatt.png' %}" alt="Interactive Map">
+                </div>
+                <h3>Smart Chatbot</h3>
+                <p>
+                    Ask anything about cultures, traditions, foods, or places! Our chatbot gives instant, AI-powered answers.
+                </p>
+            </div>
+            <!-- Kutucuk 6: Holiday & Events Calendar -->
+            <div class="feature-box">
+                <div class="feature-image-placeholder">
+                    <img src="{% static 'images/calendar.png' %}" alt="Interactive Map">
+                </div>
+                <h3>Holiday & Events Calendar</h3>
+                <p>
+                    Check each country’s public holidays, festivals, and special days in a beautiful calendar view.
+                </p>
+            </div>
+            <!-- Kutucuk 7: Famous Foods -->
+            <div class="feature-box">
+                <div class="feature-image-placeholder">
+                    <img src="{% static 'images/dish.png' %}" alt="Famous Foods">
+                </div>
+                <h3>Famous Foods</h3>
+                <p>
+                    Explore a curated list of the most iconic local foods for each country and city, with easy-to-read explanations.
+                </p>
+            </div>
+            <!-- Kutucuk 8: Traditions Info -->
+            <div class="feature-box">
+                <div class="feature-image-placeholder">
+                    <img src="{% static 'images/tra.png' %}" alt="Traditions & Culture">
+                </div>
+                <h3>Traditions & Culture</h3>
+                <p>
+                    Learn about unique cultural practices, everyday life, and special traditions for every place you discover.
+                </p>
+            </div>
+            <!-- Kutucuk 9: Places to Visit -->
+            <div class="feature-box">
+                <div class="feature-image-placeholder">
+                    <img src="{% static 'images/visit.png' %}" alt="Places to Visit">
+                </div>
+                <h3>Places to Visit</h3>
+                <p>
+                    Get inspired for travel! See top attractions, historical sites, and must-visit places for every country and city.
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

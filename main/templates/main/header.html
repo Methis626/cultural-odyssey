@@ -1,0 +1,102 @@
+{% load static %}
+
+<header class="modern-header">
+ 
+  <div class="logo-area">
+    <img src="{% static 'images/3.png' %}" alt="Logo">
+    <span>CULTURAL ODYSSEY</span>
+  </div>
+
+
+
+
+
+<div class="searchBox">
+  <input class="searchInput" type="text" id="countrySearch" placeholder="Search a country or city..." />
+  <button class="searchButton">
+    <i class="fas fa-search"></i>
+  </button>
+</div>
+<div class="suggestion-box"></div>
+
+<div class="bobo">
+    <nav class="nav-menu">
+<a href="{% url 'explore' %}">Home</a>
+<a href="{% url 'about' %}">About Us</a>
+
+
+  </nav>
+</div>
+
+<div class="auth-buttons">
+  {% if user.is_authenticated %}
+    <span class="username">👤 {{ user.username }}</span>
+    <button id="profile-btn" class="ghost">Profili Düzenle</button>
+    <a href="{% url 'logout' %}" class="ghost">Çıkış Yap</a>
+  {% else %}
+    <button id="login-btn" class="ghost">Log in</button>
+    <button id="signup-btn" class="ghost">Sign up</button>
+  {% endif %}
+</div>
+
+
+
+
+<!-- Login & Sign Up Modal -->
+<div id="authModal" class="modal hidden">
+  <div id="authContainer" class="container">
+    <!-- Giriş Formu -->
+    <div class="form-container sign-in-container">
+      <form>
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <button type="submit">Login</button>
+        <p>Don't have an account? <a href="#" id="toSignup">Sign Up</a></p>
+      </form>
+    </div>
+
+    <!-- Kayıt Formu -->
+    <div class="form-container sign-up-container">
+      <form>
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Username" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button type="submit">Sign Up</button>
+        <p>Already have an account? <a href="#" id="toLogin">Login</a></p>
+      </form>
+    </div>
+
+    <!-- Geçiş Paneli -->
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h2>Welcome Back!</h2>
+          <p>To keep connected, please log in with your info</p>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h2>Hello, Friend!</h2>
+          <p>Enter your details and start your journey with us</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  
+   
+
+   </div>
+
+  
+
+
+
+
+
+
+</header>
+

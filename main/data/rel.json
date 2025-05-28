@@ -1,0 +1,28 @@
+{
+  "TR": {
+    "religion": {
+      "Islam": 98,
+      "Christianity": 0.2,
+      "Judaism": 0.04,
+      "No Religion": 1,
+      "Other": 0.76
+    }
+  },
+  "Germany": {
+    "religion": {
+      "Christianity": 65,
+      "Islam": 6.5,
+      "No Religion": 26,
+      "Other": 2.5
+    }
+  },
+  "France": {
+    "religion": {
+      "Christianity": 63,
+      "Islam": 8,
+      "Judaism": 1,
+      "No Religion": 28,
+      "Other": 0
+    }
+  }
+}
